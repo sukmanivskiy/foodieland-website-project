@@ -1,0 +1,22 @@
+.soc1als {
+  &__list {
+    display: flex;
+    column-gap: 10px;
+
+    @include mobile {
+      column-gap: 5px;
+    }
+  }
+
+  &__link {
+    @include square(44px);
+
+    @include flex-center(true);
+
+    position: relative;
+
+    @include mobile {
+      @include square(35px);
+    }
+  }
+}

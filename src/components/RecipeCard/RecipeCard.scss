@@ -1,0 +1,44 @@
+.recipe-card {
+  position: relative;
+  min-height: 400px;
+  width: 100%;
+  aspect-ratio: 10/11;
+
+  @include mobile {
+    min-height: unset;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    height: 100%;
+  }
+
+  &__image {
+    border-radius: var(--border-radius-s);
+    width: 100%;
+    height: auto;
+  }
+
+  &__link {
+    font-weight: 600;
+    font-size: 24px;
+    padding-inline: 8px;
+  }
+
+  &__tags {
+    &-list {
+      display: flex;
+      padding: 0 8px 8px;
+      column-gap: 16px;
+      margin-top: auto;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      column-gap: 8px;
+    }
+  }
+}

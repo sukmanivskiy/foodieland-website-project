@@ -1,0 +1,42 @@
+.category-button {
+  width: 180px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 30px;
+  position: relative;
+  border: none;
+  color: var(--color-black);
+  border-radius: var(--border-radius);
+
+  @include mobile-s {
+    padding: 15px;
+  }
+
+  @include hover() {
+    scale: 1.1;
+  }
+
+
+  @include laptop-s {
+    width: 100%;
+    flex-shrink: 0;
+    height: 120px;
+  }
+
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__image {
+    width: 50%;
+    max-width: 100px;
+    position: absolute;
+    top: 0;
+    translate: 0 -40%;
+  }
+
+}
