@@ -22,6 +22,7 @@ below.
 To install [Node](http://nodejs.org/) visit official site http://nodejs.org/
 
 <br>
+
 ## Install
 
     $ git clone https://github.com/ORG/PROJECT.git
@@ -68,7 +69,8 @@ Minista is a lightweight static site generator that lets you build fully static 
 
 JSX allows you to write HTML-like components directly in JavaScript. These components can be pre-rendered into static HTML during the build process, producing a fully static site with modular, reusable, and maintainable code.
 <br>
-###[Sass](https://sass-lang.com/) CSS Preprocessor
+
+### [Sass](https://sass-lang.com/) CSS Preprocessor
 
 Sass is a powerful CSS preprocessor that adds variables, nesting, mixins, and functions to standard CSS. It helps write more maintainable, reusable, and organized stylesheets, which are then compiled into standard CSS for the browser.
 ### [Vite](https://vite.dev/) Build Tool
