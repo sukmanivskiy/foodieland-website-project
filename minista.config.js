@@ -102,5 +102,18 @@ export default defineConfig({
     css: {
       devSourcemap: true,
     },
+    build: {
+      cssCodeSplit: false,
+      rollupOptions: {
+        output: {
+          assetFileNames: (assetInfo) => {
+            if (assetInfo.name && assetInfo.name.endsWith('.css')) {
+              return 'assets/bundle.css' // <-- конкретна назва!
+            }
+            return 'assets/[name].[ext]'
+          }
+        }
+      }
+    }
   },
 })
