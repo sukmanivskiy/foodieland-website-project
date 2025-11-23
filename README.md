@@ -75,7 +75,9 @@ Sass is a powerful CSS preprocessor that adds variables, nesting, mixins, and fu
 <br>
 Vite is a fast, modern build tool and development server for JavaScript projects. It provides instant module hot-reloading during development and produces optimized, production-ready builds with minimal configuration, making development and deployment faster and more efficient.
 <br>
-###Linters and formatters 
+
+### Linters and formatters 
+
 - [ESLint](https://eslint.org/) JavaScript code linter
 - [StyleLint](https://stylelint.io/) CSS code linter
 - [Prettier](https://prettier.io/) code formatter
