@@ -13,8 +13,8 @@ export default () => {
         initialSlide: 1,
         effect: 'coverflow',
         coverflowEffect: {
-          rotate: 25
-        }
+          rotate: 25,
+        },
       })}>
         <ul className = " hero__slider-list swiper-wrapper">
           {heroSlides.map((

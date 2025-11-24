@@ -1,4 +1,5 @@
 import { defineConfig } from 'minista'
+import vitePluginSvgr from "vite-plugin-svgr";
 import path from 'path'
 
 /**
@@ -99,6 +100,7 @@ export default defineConfig({
 
   // Можно прокинуть дополнительные опции в Vite
   vite: {
+    plugins: [vitePluginSvgr],
     css: {
       devSourcemap: true,
     },

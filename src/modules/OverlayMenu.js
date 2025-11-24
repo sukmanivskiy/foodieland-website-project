@@ -2,7 +2,7 @@ class OverlayMenu {
   selectors = {
     root: '[data-js-overlay]',
     overlay: '[data-js-overlay-menu]',
-    burgerButton: '[data-js-overlay-burger]'
+    burgerButton: '[data-js-overlay-burger]',
   }
 
   stateClasses = {

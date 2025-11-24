@@ -12,14 +12,13 @@ class Slider {
     this.config = JSON.parse(
       this.rootElement.getAttribute(getAttrNameFromSelector(rootSelector))
     )
-    console.log(this.config)
     this.init()
   }
 
   init() {
     new Swiper(this.rootElement, {
       modules: [EffectCoverflow],
-      ...this.config
+      ...this.config,
     })
   }
 }

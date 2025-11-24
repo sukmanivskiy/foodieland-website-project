@@ -31,7 +31,7 @@ export default (props) => {
         <BurgerButton
           className="header__burger-button visible-mobile"
           extraAttrs={{
-            'data-js-overlay-burger': ''
+            'data-js-overlay-burger': '',
           }}
         />
       </div>

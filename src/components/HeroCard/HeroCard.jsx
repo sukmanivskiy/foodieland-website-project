@@ -37,7 +37,7 @@ export default (props) => {
             {description}
           </p>
         </div>
-        <div className="hero-card__tags">
+        <div className="hero-card__tags hidden-mobile-s">
           <ul className="hero-card__tags-list">
             {tags.map(({iconName, label}) => (
               <li className="hero-card__tags-item">

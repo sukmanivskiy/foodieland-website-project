@@ -4,7 +4,7 @@ export default [
   {
     category: {
       imgSrc: '/src/assets/images/scroll.png',
-      label: 'Hot Recipes'
+      label: 'Hot Recipes',
     },
     title: 'Spicy delicious chicken wings',
     TitleTag: 'h1',
@@ -18,8 +18,8 @@ export default [
       name: 'John Smith',
       date: {
         dateTime: '2022-03-15',
-        label: '15 March 2022'
-      }
+        label: '15 March 2022',
+      },
     },
     imgSrc: '/src/assets/images/chicken.jpg',
 
@@ -27,7 +27,7 @@ export default [
   {
     category: {
       imgSrc: '/src/assets/images/scroll.png',
-      label: 'Hot Recipes'
+      label: 'Hot Recipes',
     },
     title: 'Spicy delicious chicken wings',
     TitleTag: 'h1',
@@ -41,8 +41,8 @@ export default [
       name: 'John Smith',
       date: {
         dateTime: '2022-03-15',
-        label: '15 March 2022'
-      }
+        label: '15 March 2022',
+      },
     },
     imgSrc: '/src/assets/images/chicken.jpg',
 
@@ -50,7 +50,7 @@ export default [
   {
     category: {
       imgSrc: '/src/assets/images/scroll.png',
-      label: 'Hot Recipes'
+      label: 'Hot Recipes',
     },
     title: 'Spicy delicious chicken wings',
     TitleTag: 'h1',
@@ -64,10 +64,10 @@ export default [
       name: 'John Smith',
       date: {
         dateTime: '2022-03-15',
-        label: '15 March 2022'
-      }
+        label: '15 March 2022',
+      },
     },
     imgSrc: '/src/assets/images/chicken.jpg',
 
-  }
+  },
 ]

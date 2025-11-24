@@ -8,7 +8,7 @@ const SlideItem = [
   {
     HeroCard: {
       imgSrc: '/src/assets/images/scroll.png',
-      label: 'Hot Recipes'
-    }
-  }
+      label: 'Hot Recipes',
+    },
+  },
 ]

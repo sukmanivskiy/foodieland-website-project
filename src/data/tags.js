@@ -6,5 +6,5 @@ export default {
   chicken:{
     iconName: 'utensils',
     label: 'Chicken',
-  }
+  },
 }

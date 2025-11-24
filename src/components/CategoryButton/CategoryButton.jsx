@@ -16,14 +16,14 @@ export default (props) => {
     <button
       className = {clsx('category-button', className)}
       style={{
-        background: `linear-gradient(180deg, rgba(${bgColor} 0) 0%, rgba(${bgColor} 0.1) 100%)`
+        background: `linear-gradient(180deg, rgba(${bgColor} 0) 0%, rgba(${bgColor} 0.1) 100%)`,
         }}
     >
       <Image
         className = {clsx('category-button__image', className)}
         src={imgSrc} alt=""
         style={{
-          filter: `drop-shadow(20px 20px 10px rgba(${shadowColor} 0.2))`
+          filter: `drop-shadow(20px 20px 10px rgba(${shadowColor} 0.2))`,
         }}
       />
       <h3
