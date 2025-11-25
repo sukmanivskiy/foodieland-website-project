@@ -8,6 +8,8 @@ export default () => {
     <section className="hero ce" aria-labelledby="hero-title">
       <div className="hero__slider swiper" data-js-slider={JSON.stringify({
         slidesPerView: 'auto',
+        preloadImages: true,
+        lazy: false,
         spaceBetween: 40,
         centeredSlides: true,
         initialSlide: 1,
