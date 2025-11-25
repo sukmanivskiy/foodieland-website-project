@@ -33,7 +33,17 @@ export default defineConfig({
           360, 400, 640, 800, 1024, 1280, 1440, 1920, 2560, 2880, 3840,
         ],
         resolution: [1, 2],
+        format: 'webp', // обробка у WebP
+        formatOptions: {
+          webp: {
+            quality: 80,
+            alphaQuality: 100,
+            lossless: false, // якщо потрібна прозорість, став true
+          },
+        },
+        background: undefined, // зберігає прозорість
       },
+      include: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.webp'], // явно включаємо всі формати
     },
 
     // Поддержка импорта SVG как React/JSX-компонентов
