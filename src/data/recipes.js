@@ -88,7 +88,7 @@ export const recipesList = [
     tags: tags(30,'Japanese'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-15.jpg',
-  }
+  },
 ]
 
 export const suggestedRecipes = recipesList.filter((recipe) => {return recipe.suggested === true}).slice(0,8);

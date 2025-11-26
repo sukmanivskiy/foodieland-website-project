@@ -1,0 +1,107 @@
+.subscription-cta {
+  &__inner {
+    @include flex-center();
+
+    flex-direction: column;
+    row-gap: 64px;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 20px;
+    background-color: var(--color-secondary);
+    border-radius: var(--border-radius-m);
+
+    @include tablet {
+      height: 650px;
+    }
+    @include mobile {
+      justify-content: start;
+      border-radius: var(--border-radius);
+    }
+
+    &::before, &::after {
+      @include square(550px);
+      content: "";
+      position: absolute;
+      background-size: contain;
+      z-index: 0;
+    }
+    &::before {
+      background-image: url('../../assets/images/cta-bg-2.png');
+      bottom: -170px;
+      left: -170px;
+    }
+
+    &::after {
+      background-image: url('../../assets/images/cta-bg-1.png');
+      bottom: -280px;
+      right: -170px;
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    max-width: 620px;
+  }
+
+  &__title, &__description {
+    text-align: center;
+  }
+
+  &__description {
+    color: var(--color-gray-600);
+  }
+
+  &__body {
+    max-width: 480px;
+    width: 100%;
+  }
+
+  &__form {
+    @include flex-center();
+
+    padding: 10px;
+    background-color: var(--color-white);
+    border-radius: 24px;
+    gap: 50px 10px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 480px;
+
+    @include mobile-s {
+      flex-direction: column;
+      background-color: transparent;
+      max-width: unset;
+    }
+
+    &-container {
+      width: 100%;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    background-color: transparent;
+    padding-left: 5px;
+    border: 3px solid transparent;
+    border-radius: var(--border-radius-s);
+    color: var(--color-gray-600);
+    height: var(--button-height);
+
+    &:focus {
+      border: 3px solid var(--color-black);
+    }
+
+    @include mobile {
+      background-color: var(--color-white);
+      max-width: unset;
+      width: 100%;
+    }
+  }
+
+  &__button {
+    max-width: 160px;
+  }
+}
