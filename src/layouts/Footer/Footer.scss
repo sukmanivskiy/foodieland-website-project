@@ -80,6 +80,10 @@
     column-gap: 5px;
     color: var(--color-gray-600);
 
+    @include mobile-s {
+      flex-direction: column;
+    }
+
     a {
       color: var(--color-accent);
 
