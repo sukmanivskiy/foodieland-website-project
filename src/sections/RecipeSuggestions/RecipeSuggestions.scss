@@ -1,0 +1,88 @@
+.recipe-suggestions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+
+    @include tablet {
+      flex-direction: column;
+      max-width: 600px;
+      margin-inline: auto;
+    }
+  }
+
+  &__title {
+    max-width: 507px;
+    letter-spacing: -1px;
+    width: 50%;
+
+    @include tablet {
+      width: 100%;
+      max-width: unset;
+    }
+  }
+
+  &__description {
+    max-width: 620px;
+    width: 50%;
+    color: var(--color-gray-600);
+
+    @include tablet {
+      width: 100%;
+    }
+  }
+
+  &__list {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+
+    @include laptop-s {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 610px;
+      margin-inline: auto;
+    }
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__item {
+    width: 100%;
+
+    @include tablet {
+      
+    }
+
+    &:last-child {
+      @include laptop-s {
+        grid-column: 3/4;
+      }
+
+      @include tablet {
+        grid-column: unset;
+      }
+
+    }
+    & * {
+      @include tablet {
+        aspect-ratio: unset;
+      }
+    }
+  }
+
+
+}

@@ -12,6 +12,11 @@
     flex-direction: column;
     align-items: center;
     row-gap: 24px;
+
+    @include mobile {
+      max-width: 600px;
+      margin-inline: auto;
+    }
   }
 
   &__description {

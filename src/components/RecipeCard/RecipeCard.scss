@@ -1,10 +1,11 @@
 .recipe-card {
   position: relative;
   min-height: 400px;
+  max-width: 400px;
   width: 100%;
+  margin-inline: auto;
 
   @include mobile {
-    min-height: unset;
     aspect-ratio: 10/11;
   }
   @include mobile-s {

@@ -2,7 +2,7 @@ import './Recipes.scss'
 import clsx from 'clsx'
 import RecipeCard from "@/components/RecipeCard/index.js";
 import Reminder from "@/components/Reminder/index.js";
-import recipes from "@/data/recipes.js";
+import {recipesList} from "@/data/recipes.js";
 
 export default () => {
 
@@ -18,7 +18,7 @@ export default () => {
       </header>
       <div className = "recipes__body">
         <ul className="recipes__list">
-          {recipes.map((
+          {recipesList.slice(0,8).map((
             {
               tags,
               linkLabel,

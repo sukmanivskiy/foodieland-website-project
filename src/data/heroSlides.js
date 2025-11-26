@@ -9,10 +9,7 @@ export default [
     title: 'Spicy delicious chicken wings',
     TitleTag: 'h1',
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ',
-    tags: [
-      tags.timer,
-      tags.chicken,
-    ],
+    tags: tags(30,'Chicken'),
     author: {
       imgSrc: '/src/assets/images/avatar.png',
       name: 'John Smith',
@@ -32,10 +29,7 @@ export default [
     title: 'Spicy delicious chicken wings',
     TitleTag: 'h1',
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ',
-    tags: [
-      tags.timer,
-      tags.chicken,
-    ],
+    tags: tags(30,'Chicken'),
     author: {
       imgSrc: '/src/assets/images/avatar.png',
       name: 'John Smith',
@@ -55,10 +49,7 @@ export default [
     title: 'Spicy delicious chicken wings',
     TitleTag: 'h1',
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ',
-    tags: [
-      tags.timer,
-      tags.chicken,
-    ],
+    tags: tags(30,'Chicken'),
     author: {
       imgSrc: '/src/assets/images/avatar.png',
       name: 'John Smith',

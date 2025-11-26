@@ -1,10 +1,12 @@
-export default {
-  timer:{
-    iconName: 'timer',
-    label: '30 minutes',
-  },
-  chicken:{
-    iconName: 'utensils',
-    label: 'Chicken',
-  },
+export default (time, tag) => {
+  return [
+    {
+      iconName: 'timer',
+      label: `${time} minutes`,
+    },
+    {
+      iconName: 'utensils',
+      label: `${tag}`,
+    },
+  ]
 }
