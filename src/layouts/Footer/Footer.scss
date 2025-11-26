@@ -1,4 +1,103 @@
 .footer {
-  padding-block: 20px;
-  background-color: var(--color-gray);
+  padding-block: 80px 48px !important;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+    column-gap: 20px;
+    border-bottom: 2px solid var(--color-gray);
+
+    @include mobile {
+      flex-direction: column;
+      row-gap: 40px;
+    }
+  }
+
+  &__logo-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+    @include mobile {
+      align-items: center;
+    }
+  }
+
+  &__description {
+    color: var(--color-gray-600);
+  }
+
+  &__logo {
+    display: flex;
+    padding: 10px;
+
+    @include hover {
+      scale: 1.25;
+    }
+  }
+
+  &__navigation {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  &__menu {
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &-link {
+      padding: 15px 5px;
+      font-weight: 500;
+    }
+  }
+
+  &__body {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    @include mobile {
+      justify-content: space-between;
+      column-gap: 20px;
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    column-gap: 5px;
+    color: var(--color-gray-600);
+
+    a {
+      color: var(--color-accent);
+
+      @include hover {
+        color: var(--color-black);
+      }
+    }
+  }
+
+  &__soc1als {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+
+    @include mobile {
+      position: static;
+    }
+  }
 }
