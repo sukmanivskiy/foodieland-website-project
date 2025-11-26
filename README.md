@@ -25,7 +25,7 @@ To install [Node](http://nodejs.org/) visit official site http://nodejs.org/
 
 ## Install
 
-    $ git clone https://github.com/ORG/PROJECT.git
+    $ git clone https://github.com/sukmanivskiy/foodieland-website-project.git
     $ cd PROJECT
     $ npm install --force
 

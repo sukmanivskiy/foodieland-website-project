@@ -1,11 +1,11 @@
 .button {
   @include flex-center(false);
 
-  padding: 8px 12px;
+  padding: 10px 20px;
   border: none;
   column-gap: 15px;
   font-weight: 600;
-  padding-block: 10px;
+  width: 100%;
   height: var(--button-height);
   color: var(--color-white);
   background-color: var(--color-black);

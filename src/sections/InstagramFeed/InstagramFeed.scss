@@ -1,0 +1,70 @@
+.instagram-feed {
+  --itemMaxWidth: 290px;
+  --listGap: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 80px;
+  background-image: var(--gradient);
+
+  @include tablet {
+    --itemMaxWidth: 350px;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+
+
+  &__title {
+    text-align: center;
+  }
+
+  &__description {
+    max-width: 840px;
+    color: var(--color-gray-600);
+    text-align: center;
+  }
+
+  &__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: var(--listGap);
+
+    @include tablet {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: calc((var(--itemMaxWidth) * 2) + var(--listGap));
+      margin-inline: auto;
+    }
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    max-width: var(--itemMaxWidth);
+
+    @include tablet {
+      margin-inline: auto;
+      width: 100%;
+    }
+  }
+
+  &__button {
+    max-width: 230px;
+    align-self: center;
+  }
+}

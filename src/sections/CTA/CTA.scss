@@ -1,0 +1,93 @@
+.cta {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+  padding-top: 232px;
+
+  @include tablet {
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 530px;
+    width: 45%;
+
+    @include tablet {
+      width: 100%;
+    }
+
+    @include mobile {
+      align-self: center;
+      align-items: center;
+      max-width: 400px;
+    }
+  }
+
+  &__title {
+    letter-spacing: -1px;
+
+    @include mobile {
+      text-align: center;
+    }
+  }
+
+  &__description {
+    color: var(--color-gray-600);
+    width: 95%;
+    margin-block: 24px 72px;
+    
+    @include mobile {
+      text-align: justify;
+    }
+  }
+
+  &__button {
+    align-self: start;
+    max-width: 180px;
+    z-index: 1;
+
+    @include mobile {
+      max-width: unset;
+    }
+  }
+
+  &__body {
+    flex-shrink: 0;
+    position: relative;
+    width: 50%;
+    aspect-ratio: 13/10;
+    max-width: 650px;
+    max-height: 500px;
+    border-radius: var(--border-radius);
+    background-image: var(--gradient);
+
+    @include tablet {
+      width: 100%;
+      align-self: end;
+    }
+
+    @include mobile {
+      max-width: unset;
+      margin-top: 100px;
+    }
+  }
+
+  &__image {
+    width: 110%;
+    aspect-ratio: 11/10;
+    position: absolute;
+    bottom: 0;
+    right: 36px;
+    max-width: 660px;
+    max-height: 597px;
+
+    @include mobile {
+      width: 100%;
+      right: 0;
+    }
+  }
+}
