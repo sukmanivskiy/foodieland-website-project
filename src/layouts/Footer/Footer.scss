@@ -32,6 +32,10 @@
 
   &__description {
     color: var(--color-gray-600);
+
+    @include mobile {
+      text-align: center;
+    }
   }
 
   &__logo {
