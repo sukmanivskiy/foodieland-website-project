@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/recipes/:id", "destination": "/recipes/:id.html" }
+  ]
+}

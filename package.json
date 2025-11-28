@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "start": "minista",
-    "build": "minista build",
+    "build": "minista build && copy vercel.json dist\\vercel.json",
     "preview": "minista preview",
     "lint:js": "eslint src --ext .js,.jsx",
     "lint:js:fix": "eslint src --ext .js,.jsx --fix",
