@@ -7,7 +7,7 @@ export default (props) => {
     className,
     imgSrc,
     name,
-    date,
+    authorDate,
   } = props
 
   return (
@@ -16,12 +16,14 @@ export default (props) => {
     >
       <Image
         src={imgSrc}
-        className={clsx('author-card__image', className)}
+        className= 'author-card__image'
       />
       <h3 className = "author-card__name">{name}</h3>
-      <time className="author-card__date" dateTime={date.dateTime}>
-        {date.label}
-      </time>
+
+      {authorDate && <time className="author-card__date" dateTime={authorDate.dateTime}>
+        {authorDate.label}
+      </time>}
+
     </div>
   )
 }

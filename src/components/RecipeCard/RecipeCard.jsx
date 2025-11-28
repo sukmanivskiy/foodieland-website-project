@@ -1,7 +1,6 @@
 import './RecipeCard.scss'
 import clsx from 'clsx'
 import {Image} from "minista";
-import Button from "@/components/Button/index.js";
 import MyIcon from "@/components/MyIcon/index.js";
 import LikeButton from "@/components/LikeButton/index.js";
 

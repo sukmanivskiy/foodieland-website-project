@@ -5,6 +5,7 @@ import recipesPerPage from "@/utils/recipesPerPageLogic.js";
 import ItemsList from "@/sections/ItemsList/index.js";
 import SectionHeader from "@/sections/SectionHeader/index.js";
 import SearchFormSection from "@/sections/SearchFormSection/index.js";
+import SubscriptionCTA from "@/sections/SubscriptionCTA/index.js";
 
 export async function getStaticData() {
   return recipesPerPage(recipesList, 6, "recipes").map((page) => ({
@@ -25,8 +26,14 @@ export default function RecipesPage(props) {
     <>
       <SectionHeader className = 'section container'/>
       <SearchFormSection className="container" />
-      {/*<ItemsList recipes={pageRecipes} />*/}
-      {/*<PagePagination  current={currentPage} total={totalPages} />*/}
+      <ItemsList
+        className=" section container"
+        recipes={pageRecipes} />
+      <PagePagination
+        className="container"
+        current={currentPage}
+        total={totalPages} />
+      <SubscriptionCTA/>
     </>
   );
 }

@@ -1,7 +1,6 @@
 import './ItemsList.scss'
 import clsx from 'clsx'
-import PagePagination from "@/sections/PagePagination/PagePagination.jsx";
-import RecipeCard from "@/components/RecipeCard/index.js";
+import ContentItem from "@/components/ContentItem/index.js";
 
 export default (props) => {
   const {
@@ -15,7 +14,15 @@ export default (props) => {
     >
       <ul className="items-list__list">
         {recipes.map((item) => (
-          <RecipeCard key={item.id} {...item} />
+          <li className="items-list__item">
+            <ContentItem
+              linkLabel = {item.linkLabel}
+              imgSrc = {item.imgSrc}
+              href = {item.href}
+              description = {item.description}
+              author = {item.author}
+            />
+          </li>
         ))}
       </ul>
     </div>
