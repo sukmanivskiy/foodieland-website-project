@@ -1,5 +1,5 @@
 import tags from "@/data/tags.js";
-
+import authors from "@/data/authors.js";
 export default [
   {
     category: {
@@ -10,14 +10,7 @@ export default [
     TitleTag: 'h1',
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ',
     tags: tags(30,'Chicken'),
-    author: {
-      imgSrc: '/src/assets/images/avatar.png',
-      name: 'John Smith',
-      date: {
-        dateTime: '2022-03-15',
-        label: '15 March 2022',
-      },
-    },
+    author: authors('John Smith'),
     imgSrc: '/src/assets/images/chicken.jpg',
 
   },
@@ -30,14 +23,7 @@ export default [
     TitleTag: 'h1',
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ',
     tags: tags(30,'Chicken'),
-    author: {
-      imgSrc: '/src/assets/images/avatar.png',
-      name: 'John Smith',
-      date: {
-        dateTime: '2022-03-15',
-        label: '15 March 2022',
-      },
-    },
+    author: authors('John Smith'),
     imgSrc: '/src/assets/images/chicken.jpg',
 
   },
@@ -50,14 +36,7 @@ export default [
     TitleTag: 'h1',
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ',
     tags: tags(30,'Chicken'),
-    author: {
-      imgSrc: '/src/assets/images/avatar.png',
-      name: 'John Smith',
-      date: {
-        dateTime: '2022-03-15',
-        label: '15 March 2022',
-      },
-    },
+    author: authors('John Smith'),
     imgSrc: '/src/assets/images/chicken.jpg',
 
   },

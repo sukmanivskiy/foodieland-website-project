@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import PaginationButton from "@/components/PaginationButton/index.js";
 
 export default (props) => {
-  const { total, current } = props;
+  const { total, current, className } = props;
 
   const maxPages = 5;
   let start = current - Math.floor(maxPages / 2);
@@ -22,48 +22,48 @@ export default (props) => {
   const pages = Array.from({ length: end - start + 1 }, (_, i) => start + i);
 
   return (
-    <nav style={{ marginTop: "20px", display: "flex", gap: "8px", alignItems: "center" }}>
+    <div className= {clsx('page-pagination',className)}>
+      <nav className= 'page-pagination__navigation' >
 
-      {/* Prev */}
-      {current > 1 && (
-        <PaginationButton href={`/recipes/${current - 1}`} aria-label="Prev">
-          ←
-        </PaginationButton>
-      )}
+        {current > 1 && (
+          <PaginationButton className='page-pabination__button' href={`/recipes/${current - 1}`} aria-label="Prev">
+            (
+          </PaginationButton>
+        )}
 
-      {/* Ліва "…" */}
-      {start > 1 && (
-        <>
-          <PaginationButton href={`/recipes/1`}>1</PaginationButton>
-          <span style={{ padding: "0 6px" }}>…</span>
-        </>
-      )}
+        {start > 1 && (
+          <>
+            <PaginationButton className='page-pabination__button' href={`/recipes/1`}>1</PaginationButton>
+            <span>…</span>
+          </>
+        )}
 
-      {/* Сторінки */}
-      {pages.map((page) => (
-        <PaginationButton
-          key={page}
-          href={`/recipes/${page}`}
-          variant={current === page ? "active" : "default"}
-        >
-          {page}
-        </PaginationButton>
-      ))}
+        {pages.map((page) => (
+          <PaginationButton
+            key={page}
+            href={`/recipes/${page}`}
+            className={clsx(
+              'pagination-button',
+              current === page && 'pagination-button--active'
+            )}
+          >
+            {page}
+          </PaginationButton>
+        ))}
 
-      {/* Права "…" */}
-      {end < total && (
-        <>
-          <span style={{ padding: "0 6px" }}>…</span>
-          <PaginationButton href={`/recipes/${total}`}>{total}</PaginationButton>
-        </>
-      )}
+        {end < total && (
+          <>
+            <span style={{ padding: "0 6px" }}>…</span>
+            <PaginationButton className='page-pabination__button' href={`/recipes/${total}`}>{total}</PaginationButton>
+          </>
+        )}
 
-      {/* Next */}
-      {current < total && (
-        <PaginationButton href={`/recipes/${current + 1}`} aria-label="Next">
-          →
-        </PaginationButton>
-      )}
-    </nav>
+        {current < total && (
+          <PaginationButton className='page-pabination__button' href={`/recipes/${current + 1}`} aria-label="Next">
+            )
+          </PaginationButton>
+        )}
+      </nav>
+    </div>
   );
 };

@@ -1,3 +1,10 @@
 .page-pagination {
+  @include flex-center();
 
+  &__navigation {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+  }
 }
