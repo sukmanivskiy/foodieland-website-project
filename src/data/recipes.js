@@ -1,4 +1,5 @@
 import tags from "@/data/tags.js";
+import nameToLink from "@/utils/nameToLink.js";
 
 export const recipesList = [
   {
@@ -89,6 +90,110 @@ export const recipesList = [
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-15.jpg',
   },
-]
+  {
+    suggested: true,
+    tags: tags(30,'Healthy'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Western'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-10.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Healthy'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-11.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Eastern'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-12.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Healthy'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Snack'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-13.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Seafood'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-14.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Japanese'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-15.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Healthy'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Western'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-10.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Healthy'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-11.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Eastern'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-12.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Healthy'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Snack'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-13.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Seafood'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-14.jpg',
+  },
+  {
+    suggested: true,
+    tags: tags(30,'Japanese'),
+    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    imgSrc: 'src/assets/images/recipes-images/recipe-image-15.jpg',
+  },
+].map((recipe) => {
+  const id = crypto.randomUUID();
+
+  return {
+    ...recipe,
+    id,
+    href: `${nameToLink(recipe.linkLabel)}-${id.slice(0, 6)}`,
+  };
+})
 
 export const suggestedRecipes = recipesList.filter((recipe) => {return recipe.suggested === true}).slice(0,8);

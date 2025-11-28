@@ -11,6 +11,7 @@ export default (props) => {
     tags = [],
     linkLabel,
     imgSrc,
+    href,
   } = props
 
   return (
@@ -24,7 +25,7 @@ export default (props) => {
         />
         <a
           className={clsx('recipe-card__link', className)}
-          href="/"
+          href= {href}
         >
           {linkLabel}
         </a>

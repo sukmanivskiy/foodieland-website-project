@@ -1,0 +1,11 @@
+.section-header {
+  @include flex-center();
+
+  flex-direction: column;
+  row-gap: 24px;
+
+  &__description {
+    color: var(--color-gray-600);
+    text-align: center;
+  }
+}

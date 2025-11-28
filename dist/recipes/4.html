@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friendly Frontend Starter | Not found</title>
+    <title>Friendly Frontend Starter | </title>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -71,8 +71,19 @@
       </div>
     </header>
     <main class="content">
-      <h1>Page not found</h1>
-      <a class="button" href="/">Home</a>
+      <header class="section-header section container">
+        <h1 class="section-header__title">Delicious Recipes</h1>
+        <div class="section-header__description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+        </div>
+      </header>
+      <section class="search-form-section container">
+        <form role="search" aria-label="search" method="" action="/" class="search-form">
+          <label for="search" class="visually-hidden">search</label>
+          <input class="search-form__input" type="search" id="search" name="q" placeholder="Search article, news or recipe...">
+          <button class="button search-form__button" type="submit">Search</button>
+        </form>
+      </section>
     </main>
     <footer class="footer section">
       <div class="footer__inner container">
