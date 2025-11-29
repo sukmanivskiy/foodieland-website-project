@@ -1,9 +1,8 @@
 import {recipesList} from "@/data/recipes.js";
+import RecipeHeader from "@/sections/RecipeHeader/index.js";
+import tags from "@/data/tags.js";
 
 export async function getStaticData() {
-  const apiUrl = "https://api.github.com/repos/qrac/minista/issues"
-  const apiParamsQuery = "?state=all&creator=qrac&per_page=5"
-  const response = await fetch(apiUrl + apiParamsQuery)
   return recipesList.map((item) => ({
     props: {...item},
     paths: { recipe: item.href },
@@ -11,13 +10,21 @@ export async function getStaticData() {
 }
 
 export default function (props) {
+  const {
+    linkLabel,
+    tags,
+    author,
+  } = props;
   return (
-    <div className="recipe-container">
-      <h1>{props.linkLabel}</h1>
-      <p>{props.id}</p>
+    <article className = "recipe">
+      <RecipeHeader
+        className="recipe__header container section"
+        linkLabel={linkLabel}
+        tags={tags}
+        author={author}
+      />
 
-      <h3>Ingredients:</h3>
-      <a href="/recipes/">← Back to all recipes</a>
-    </div>
+
+    </article>
   );
 }

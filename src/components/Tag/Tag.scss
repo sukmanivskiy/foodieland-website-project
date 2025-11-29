@@ -1,0 +1,14 @@
+.tag {
+  @include flex-center();
+
+  column-gap: 12px;
+
+  @include mobile {
+    column-gap: 6px;
+  }
+
+  &__label {
+    color: var(--color-gray-600);
+  }
+
+}

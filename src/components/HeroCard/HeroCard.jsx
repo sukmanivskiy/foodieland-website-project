@@ -1,9 +1,10 @@
 import './HeroCard.scss'
 import clsx from 'clsx'
-import {Icon, Image} from "minista";
+import {Image} from "minista";
 import AuthorCard from "@/components/AuthorCard/index.js";
 import Button from "@/components/Button/index.js";
 import MyIcon from "@/components/MyIcon/index.js";
+import Tag from "@/components/Tag/index.js";
 
 export default (props) => {
   const {
@@ -12,7 +13,7 @@ export default (props) => {
     title,
     TitleTag = 'h2',
     description,
-    tags = [],
+    tags={},
     author,
     imgSrc,
   } = props
@@ -39,12 +40,18 @@ export default (props) => {
         </div>
         <div className="hero-card__tags hidden-mobile-s">
           <ul className="hero-card__tags-list">
-            {tags.map(({iconName, label}) => (
-              <li className="hero-card__tags-item">
-                <MyIcon name={iconName} hasFill />
-                <span className='hero-card__tags-label'>{label}</span>
-              </li>
-            ))}
+            <li className='hero-card__tags-item'>
+              <Tag
+                iconName={tags.totalTime.iconName}
+                label={tags.totalTime.label}
+                />
+            </li>
+            <li className='hero-card__tags-item'>
+              <Tag
+                iconName={tags.dishName.iconName}
+                label={tags.dishName.label}
+              />
+            </li>
           </ul>
         </div>
         <footer className="hero-card__footer">

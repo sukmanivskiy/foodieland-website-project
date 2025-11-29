@@ -71,12 +71,61 @@
       </div>
     </header>
     <main class="content">
-      <div class="recipe-container">
-        <h1>Mixed Tropical Fruit Salad with Superfood Boosts </h1>
-        <p>2b2347dc</p>
-        <h3>Ingredients:</h3>
-        <a href="/recipes/">← Back to all recipes</a>
-      </div>
+      <article class="recipe">
+        <div class="recipe-header recipe__header container section">
+          <h1 class="recipe-header__title">Mixed Tropical Fruit Salad with Superfood Boosts </h1>
+          <div class="recipe-header__body">
+            <div class="author-card">
+              <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image">
+              <h3 class="author-card__name">John Smith</h3>
+              <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
+            </div>
+            <ul class="recipe-header__list">
+              <li class="recipe-header__item">
+                <p class="recipe-header__item-description">COOK TIME</p>
+                <div class="tag"><span class="icon tag__icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#timer"></use>
+                    </svg>
+                  </span><span class="tag__label">15 minutes</span></div>
+              </li>
+              <li class="recipe-header__item">
+                <p class="recipe-header__item-description">PREP TIME</p>
+                <div class="tag"><span class="icon tag__icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#timer"></use>
+                    </svg>
+                  </span><span class="tag__label">15 minutes</span></div>
+              </li>
+              <li class="recipe-header__item hidden-mobile-s">
+                <div class="tag"><span class="icon tag__icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#utensils"></use>
+                    </svg>
+                  </span><span class="tag__label">Chicken</span></div>
+              </li>
+            </ul>
+          </div>
+          <ul class="actions recipe-header__actions">
+            <li class="actions__item">
+              <button class="action-button" type="button"><span class="icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#print"></use>
+                  </svg>
+                </span></button>
+              <p class="actions__title">PRINT</p>
+            </li>
+            <li class="actions__item">
+              <button class="action-button" type="button"><span class="icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#share"></use>
+                  </svg>
+                </span></button>
+              <p class="actions__title">SHARE</p>
+            </li>
+          </ul>
+        </div>
+      </article>
     </main>
     <footer class="footer section">
       <div class="footer__inner container">

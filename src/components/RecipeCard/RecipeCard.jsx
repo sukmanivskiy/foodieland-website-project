@@ -3,6 +3,7 @@ import clsx from 'clsx'
 import {Image} from "minista";
 import MyIcon from "@/components/MyIcon/index.js";
 import LikeButton from "@/components/LikeButton/index.js";
+import Tag from "@/components/Tag/Tag.jsx";
 
 export default (props) => {
   const {
@@ -29,12 +30,18 @@ export default (props) => {
           {linkLabel}
         </a>
         <ul className="recipe-card__tags-list">
-          {tags.map(({iconName, label}) => (
-            <li className="recipe-card__tags-item">
-              <MyIcon name={iconName} hasFill />
-              <span className='recipe-card__tags-label'>{label}</span>
-            </li>
-          ))}
+          <li className='recipe-card__tags-item'>
+            <Tag
+              iconName={tags.totalTime.iconName}
+              label={tags.totalTime.label}
+            />
+          </li>
+          <li className='recipe-card__tags-item'>
+            <Tag
+              iconName={tags.dishName.iconName}
+              label={tags.dishName.label}
+            />
+          </li>
         </ul>
         <LikeButton/>
       </div>

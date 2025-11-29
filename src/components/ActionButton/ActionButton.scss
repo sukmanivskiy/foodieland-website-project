@@ -1,0 +1,19 @@
+.action-button {
+ @include square(80px);
+  @include flex-center(true);
+
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-secondary);
+  color: var(--color-black);
+
+  @include hover{
+    color: var(--color-accent);
+    scale: 1.2;
+  }
+
+  @include mobile {
+    @include square(60px)
+  ;
+  }
+}

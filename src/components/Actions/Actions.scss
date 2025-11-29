@@ -1,0 +1,19 @@
+.actions {
+  @include flex-center();
+  justify-content: end;
+  gap: 32px ;
+  @include mobile{
+    gap: 10px;
+  }
+
+  @include mobile-s {
+    flex-direction: column;
+  }
+
+  &__item {
+    @include flex-center();
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+}

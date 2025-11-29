@@ -5,21 +5,21 @@ import hashSum from 'hash-sum'
 
 export const recipesList = [
   {
-    tags: tags(30,'Chicken'),
+    tags: tags(15,15,'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'Big and Juicy Wagyu Beef Cheeseburger',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-1.jpg',
   },
   {
-    tags: tags(30,'Chicken'),
+    tags: tags(15,15,'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-2.jpg',
   },
   {
-    tags: tags(30,'Chicken'),
+    tags: tags(15,15,'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
 
@@ -27,35 +27,35 @@ export const recipesList = [
     imgSrc: 'src/assets/images/recipes-images/recipe-image-3.jpg',
   },
   {
-    tags: tags(30,'Chicken'),
+    tags: tags(15,15,'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'Fresh and Healthy Mixed Mayonnaise Salad',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-4.jpg',
   },
   {
-    tags: tags(30,'Chicken'),
+    tags: tags(15,15,'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'Chicken Meatballs with Cream Cheese',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-5.jpg',
   },
   {
-    tags: tags(30,'Chicken'),
+    tags: tags(15,15,'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'Fruity Pancake with Orange & Blueberry',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-6.jpg',
   },
   {
-    tags: tags(30,'Chicken'),
+    tags: tags(15,15,'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Best Easy One Pot Chicken and Rice',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-7.jpg',
   },
   {
-    tags: tags(30,'Chicken'),
+    tags: tags(15,15,'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
@@ -63,7 +63,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -71,7 +71,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Western'),
+    tags: tags(15,15,'Western'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -79,7 +79,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -87,7 +87,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Eastern'),
+    tags: tags(15,15,'Eastern'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -95,7 +95,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -103,7 +103,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Snack'),
+    tags: tags(15,15,'Snack'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -111,7 +111,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Seafood'),
+    tags: tags(15,15,'Seafood'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -119,7 +119,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Japanese'),
+    tags: tags(15,15,'Japanese'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -127,7 +127,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -135,7 +135,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Western'),
+    tags: tags(15,15,'Western'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -143,7 +143,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -151,7 +151,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Eastern'),
+    tags: tags(15,15,'Eastern'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -159,7 +159,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -167,7 +167,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Snack'),
+    tags: tags(15,15,'Snack'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -175,7 +175,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Seafood'),
+    tags: tags(15,15,'Seafood'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -183,7 +183,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Japanese'),
+    tags: tags(15,15,'Japanese'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -191,7 +191,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -199,7 +199,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Western'),
+    tags: tags(15,15,'Western'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -207,7 +207,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -215,7 +215,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Eastern'),
+    tags: tags(15,15,'Eastern'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -223,7 +223,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Healthy'),
+    tags: tags(15,15,'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -231,7 +231,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Snack'),
+    tags: tags(15,15,'Snack'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -239,7 +239,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Seafood'),
+    tags: tags(15,15,'Seafood'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
@@ -247,7 +247,7 @@ export const recipesList = [
   },
   {
     suggested: true,
-    tags: tags(30,'Japanese'),
+    tags: tags(15,15,'Japanese'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',

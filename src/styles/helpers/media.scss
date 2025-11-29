@@ -2,7 +2,7 @@ $laptop: 1440px;
 $laptop-s: 1280px;
 $tablet: 1023px;
 $mobile: 767px;
-$mobile-s: 480px;
+$mobile-s: 535px;
 
 @mixin laptop-above {
   @media (width > $laptop) {
