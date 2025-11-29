@@ -1,6 +1,7 @@
 import tags from "@/data/tags.js";
 import authors from "@/data/authors.js";
 import nameToLink from "@/utils/nameToLink.js";
+import hashSum from 'hash-sum'
 
 export const recipesList = [
   {
@@ -252,13 +253,13 @@ export const recipesList = [
     linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-15.jpg',
   },
-].map((recipe) => {
-  const id = crypto.randomUUID();
+].map((recipe,index) => {
+  const id = hashSum(recipe.linkLabel + index);
 
   return {
     ...recipe,
     id,
-    href: `${nameToLink(recipe.linkLabel)}-${id.slice(0, 6)}`,
+    href: `${nameToLink(recipe.linkLabel)}-${id}`,
   };
 })
 
