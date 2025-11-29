@@ -34,7 +34,8 @@ export default (props) => {
           {description}
         </div>
         <AuthorCard
-          className= 'content-item__author inline-card'
+          className= 'content-item__author'
+          isInline
           {...author}
         />
       </div>

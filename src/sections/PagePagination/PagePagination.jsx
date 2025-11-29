@@ -26,15 +26,15 @@ export default (props) => {
       <nav className= 'page-pagination__navigation' >
 
         {current > 1 && (
-          <PaginationButton className='page-pabination__button' href={`/recipes/${current - 1}`} aria-label="Prev">
+          <PaginationButton className='page-pagination__button hidden-mobile-s' href={`/recipes/${current - 1}`} aria-label="Prev">
             (
           </PaginationButton>
         )}
 
         {start > 1 && (
           <>
-            <PaginationButton className='page-pabination__button' href={`/recipes/1`}>1</PaginationButton>
-            <span>…</span>
+            <PaginationButton className='page-pagination__button' href={`/recipes/1`}>1</PaginationButton>
+            <span className= 'hidden-mobile-s'>…</span>
           </>
         )}
 
@@ -53,13 +53,13 @@ export default (props) => {
 
         {end < total && (
           <>
-            <span style={{ padding: "0 6px" }}>…</span>
-            <PaginationButton className='page-pabination__button' href={`/recipes/${total}`}>{total}</PaginationButton>
+            <span className='hidden-mobile-s'>…</span>
+            <PaginationButton className='page-pagination__button' href={`/recipes/${total}`}>{total}</PaginationButton>
           </>
         )}
 
         {current < total && (
-          <PaginationButton className='page-pabination__button' href={`/recipes/${current + 1}`} aria-label="Next">
+          <PaginationButton className='page-pagination__button hidden-mobile-s' href={`/recipes/${current + 1}`} aria-label="Next">
             )
           </PaginationButton>
         )}

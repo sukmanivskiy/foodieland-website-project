@@ -5,22 +5,6 @@
   padding-inline: var(--container-padding-x);
 }
 
-.inline-card {
-  display: flex !important;
-  align-items: center !important;
-  column-gap: 0!important;
-  text-align: center;
-
-  &>*:not(:first-child) {
-    padding-inline:24px ;
-    align-self: stretch;
-  }
-
-  &>*:nth-child(2) {
-    border-right: 2px solid var(--color-gray) ;
-  }
-}
-
 .visually-hidden {
   @include visually-hidden;
 }
