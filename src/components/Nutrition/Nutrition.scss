@@ -1,0 +1,32 @@
+.nutrition {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding: 32px;
+  border-radius: var(--border-radius);
+  background-color: var(--color-secondary);
+
+  @include tablet {
+    height: unset;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 8px;
+    border-bottom: 1px solid var(--color-gray);
+  }
+
+  &__name,&__description {
+    color: var(--color-gray-600);
+  }
+
+  &__description {
+    margin-top: auto;
+
+    @include tablet {
+      margin-top: 32px;
+    }
+  }
+}

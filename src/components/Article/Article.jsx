@@ -1,0 +1,116 @@
+import './article.scss'
+import clsx from 'clsx'
+import MyIcon from "@/components/MyIcon/index.js";
+import {Image} from "minista";
+
+export default (props) => {
+  const {
+    className, ingredients, article, isCheck,
+  } = props
+
+  return (
+    <article
+    className = {clsx('article', className)}
+  >
+    {ingredients && (
+      <>
+        <h2 className = "article__title h3">{ingredients.title}</h2>
+        <fieldset className = 'article__field'>
+          {ingredients.lists.map(({title, details}) => (<>
+            <legend className = "article__list-title h4">{title}</legend>
+            <ul className = "article__list">
+              {details.map((detail) => (<li className = "article__item">
+                <label className = "article__label">
+                  <input
+                    className = 'article__checkbox'
+                    type = "checkbox"
+                    hidden
+                  />
+                  <span
+                    aria-hidden = "true"
+                    className = 'article__custom-checkbox'
+                  >
+                      <MyIcon
+                        className = 'article__custom-checkbox-tick'
+                        name = 'tick'
+                      />
+                    </span>
+                  <span
+                    aria-hidden = 'true'
+                    className = 'article__details'
+                  >{detail}</span>
+                </label>
+              </li>))}
+            </ul>
+          </>))}
+        </fieldset>
+      </>
+      )}
+
+    {article && isCheck && (
+      <fieldset className ='article__field '>
+        <legend className = "article__title h3">{article.title}</legend>
+        <ul className = "article__list">
+          {article.paragraphs.map((detail, index) => (<li
+            key = {index}
+            className = "article__item article__item--content"
+          >
+            <label className = "article__label article__label--content ">
+              <input
+                className = 'article__checkbox'
+                type = "checkbox"
+                hidden
+              />
+              <span className = "article__custom-checkbox article__custom-checkbox--content">
+                <MyIcon
+                  className = 'article__custom-checkbox-tick'
+                  name = "tick"
+                />
+              </span>
+              <div className = "article__content">
+                {detail.imgSrc ? (
+                  <>
+                    <h2 className = "article__content-title h4">{detail.title}</h2>
+                    <div className="article__image-container">
+                      <Image
+                        className = "article__image"
+                        width={400}
+                        height={200}
+                        src = {detail.imgSrc}
+                        alt = {detail.title || 'Image'}
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <h2 className = "article__content-title h4">{detail.title}</h2>)}
+                  <p className = "article__content-description">{detail.description}</p>
+              </div>
+            </label>
+          </li>))}
+        </ul>
+      </fieldset>)}
+
+    {article && !isCheck &&(
+      <section className = "article--blog ">
+        <h2 className="article__title--blog">{article.title}</h2>
+          {article.paragraphs.map((detail, index) => (
+              <div className = "article__body--blog">
+                {detail.imgSrc ? (
+                  <>
+                    <h3 className = "article__content-title--blog h4">{detail.title}</h3>
+                    <Image
+                      className = "article__image"
+                      width={400}
+                      height={200}
+                      src = {detail.imgSrc}
+                      alt = {detail.title || 'Image'}
+                    />
+                  </>
+                ) : (
+                  <h3 className = "article__content-title--blog h4">{detail.title}</h3>)}
+                <p className = "article__content-description--blog">{detail.description}</p>
+              </div>
+          ))}
+      </section>)}
+    </article>)}
+

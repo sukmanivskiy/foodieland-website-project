@@ -1,0 +1,13 @@
+.recipe {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 40px;
+
+  &__header, &__info{
+    grid-column: 1/-1;
+  }
+
+  &__ingredients, &__details {
+    grid-column: 1/2;
+  }
+}

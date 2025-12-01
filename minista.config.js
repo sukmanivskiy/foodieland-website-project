@@ -4,6 +4,8 @@ import path from 'path'
 /**
  * @see https://minista.qranoko.jp/docs/config-file
  */
+
+
 export default defineConfig({
   // Корень проекта (обычно не меняется)
   root: '',
