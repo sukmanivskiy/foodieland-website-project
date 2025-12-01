@@ -50,7 +50,7 @@ export default (props) => {
     {article && isCheck && (
       <fieldset className ='article__field '>
         <legend className = "article__title h3">{article.title}</legend>
-        <ul className = "article__list">
+        <ol className = "article__list--ordered">
           {article.paragraphs.map((detail, index) => (<li
             key = {index}
             className = "article__item article__item--content"
@@ -87,7 +87,7 @@ export default (props) => {
               </div>
             </label>
           </li>))}
-        </ul>
+        </ol>
       </fieldset>)}
 
     {article && !isCheck &&(

@@ -1,11 +1,30 @@
 .article {
+
+  @include tablet {
+    width: 100%;
+    padding-inline: 40px;
+
+    @include mobile-s {
+      padding-inline: 20px;
+    }
+  }
   &__title {
+    @include tablet {
+      text-align: center;
+    }
   }
 
   &__field {
     border: none;
     display: flex;
     flex-direction: column;
+  }
+
+  &__list {
+    &--ordered {
+      list-style: none;
+      counter-reset: --custom-counter;
+    }
   }
 
   &__list-title {
@@ -19,6 +38,7 @@
 
     &--content {
       padding-block: 48px;
+      counter-increment: --custom-counter;
     }
   }
 
@@ -29,6 +49,13 @@
 
     &--content {
       align-items: start;
+    }
+  }
+
+  &__content-title {
+    &:before {
+      content: counter(--custom-counter) ' .';
+      padding-right: 10px;
     }
   }
 

@@ -1,10 +1,13 @@
 import './recipe.scss'
-import {recipesList} from "@/data/recipes.js";
+import {recipesList,randomRecipes} from "@/data/recipes.js";
 import RecipeHeader from "@/sections/RecipeHeader/index.js";
 import tags from "@/data/tags.js";
 import RecipeInfo from "@/sections/RecipeInfo/index.js";
 import RecipeDetails from "@/sections/RecipeDetails/index.js";
 import Article from "@/components/Article/Article.jsx";
+import Aside from "@/components/Aside/index.js";
+import SubscriptionCTA from "@/sections/SubscriptionCTA/index.js";
+import RecipeSuggestions from "@/sections/RecipeSuggestions/index.js";
 
 export async function getStaticData() {
   return recipesList.map((item) => ({
@@ -48,8 +51,17 @@ export default function (props) {
         article={article}
         isCheck
       />
-
-
+      <Aside
+        className="recipe__aside hidden-tablet"
+        recipes = {randomRecipes}
+        title='Other Recipe'
+      />
+      <SubscriptionCTA
+      className = "recipe__subscription-cta" />
+      <RecipeSuggestions
+      className = "recipe__suggestions"
+      isSmall
+      />
     </article>
   );
 }

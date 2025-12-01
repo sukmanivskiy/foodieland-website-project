@@ -2,6 +2,7 @@ import tags from "@/data/tags.js";
 import authors from "@/data/authors.js";
 import nameToLink from "@/utils/nameToLink.js";
 import hashSum from 'hash-sum'
+import shuffle from "@/utils/shuffle.js";
 
 export const recipesList = [
   {
@@ -2540,3 +2541,5 @@ export const recipesList = [
 export const suggestedRecipes = recipesList.filter((recipe) => {
   return recipe.suggested === true
 }).slice(0, 8);
+
+export const randomRecipes = shuffle(recipesList).slice(0, 3);
