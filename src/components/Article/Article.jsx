@@ -92,12 +92,11 @@ export default (props) => {
 
     {article && !isCheck &&(
       <section className = "article--blog ">
-        <h2 className="article__title--blog">{article.title}</h2>
           {article.paragraphs.map((detail, index) => (
-              <div className = "article__body--blog">
-                {detail.imgSrc ? (
+              <div className = "article--blog__body">
+                {detail.title && <h2 className = "article--blog__title h4">{detail.title}</h2>}
+                {detail.imgSrc && (
                   <>
-                    <h3 className = "article__content-title--blog h4">{detail.title}</h3>
                     <Image
                       className = "article__image"
                       width={400}
@@ -106,9 +105,9 @@ export default (props) => {
                       alt = {detail.title || 'Image'}
                     />
                   </>
-                ) : (
-                  <h3 className = "article__content-title--blog h4">{detail.title}</h3>)}
-                <p className = "article__content-description--blog">{detail.description}</p>
+                )}
+                {detail.description && <p className = "article--blog__description">{detail.description}</p>}
+                {detail.cite && <blockquote className='article--blog__cite h3'>{detail.cite}</blockquote>}
               </div>
           ))}
       </section>)}

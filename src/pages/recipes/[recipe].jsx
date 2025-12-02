@@ -1,9 +1,7 @@
 import './recipe.scss'
 import {recipesList,randomRecipes} from "@/data/recipes.js";
 import RecipeHeader from "@/sections/RecipeHeader/index.js";
-import tags from "@/data/tags.js";
 import RecipeInfo from "@/sections/RecipeInfo/index.js";
-import RecipeDetails from "@/sections/RecipeDetails/index.js";
 import Article from "@/components/Article/Article.jsx";
 import Aside from "@/components/Aside/index.js";
 import SubscriptionCTA from "@/sections/SubscriptionCTA/index.js";
@@ -54,7 +52,7 @@ export default function (props) {
       <Aside
         className="recipe__aside hidden-tablet"
         recipes = {randomRecipes}
-        title='Other Recipe'
+        title='Other Recipes'
       />
       <SubscriptionCTA
       className = "recipe__subscription-cta" />

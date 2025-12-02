@@ -1,4 +1,5 @@
 .recipe-card {
+  display: flex;
   position: relative;
   min-height: 400px;
   max-width: 400px;
@@ -10,19 +11,21 @@
   }
   @include mobile-s {
     aspect-ratio: unset;
+    min-height: unset;
   }
 
   &__body {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    height: 100%;
+    align-self: stretch;
   }
 
   &__image {
     border-radius: var(--border-radius-s);
     width: 100%;
-    height: auto;
+    aspect-ratio: 2/1.3;
+    object-fit: cover;
   }
 
   &__link {
@@ -39,7 +42,7 @@
       margin-top: auto;
 
       @include mobile-s {
-        margin-top: 20px;
+       margin-top: 20px ;
       }
     }
 

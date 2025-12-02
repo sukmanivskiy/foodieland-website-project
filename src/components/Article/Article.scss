@@ -2,10 +2,10 @@
 
   @include tablet {
     width: 100%;
-    padding-inline: 40px;
+    padding-inline: 20px;
 
     @include mobile-s {
-      padding-inline: 20px;
+      padding-inline:0 ;
     }
   }
   &__title {
@@ -20,11 +20,9 @@
     flex-direction: column;
   }
 
-  &__list {
-    &--ordered {
-      list-style: none;
-      counter-reset: --custom-counter;
-    }
+  &__list--ordered {
+    list-style: none;
+    counter-reset: --custom-counter;
   }
 
   &__list-title {
@@ -44,11 +42,24 @@
 
   &__label {
     display: flex;
-    align-items: center;
     column-gap: 24px;
+
+    @include mobile-s {
+      column-gap: 12px;
+    }
 
     &--content {
       align-items: start;
+    }
+  }
+
+  &__content {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 24px;
+
+    * {
+      transition-duration: var(--transition-duration);
     }
   }
 
@@ -59,17 +70,15 @@
     }
   }
 
+  &__content-description {
+    color: var(--color-gray-600);
+  }
+
   &__details {
     font-size: 18px;
     transition-duration: var(--transition-duration);
   }
 
-  &__content {
-    display: inline-flex;
-    flex-direction: column;
-    row-gap: 24px;
-    transition-duration: var(--transition-duration);
-  }
 
   &__image {
     width: 100%;
@@ -77,6 +86,14 @@
     object-fit: cover;
     margin-block: 24px;
     border-radius: 20px;
+
+    @include mobile {
+      margin-block: 16px;
+    }
+
+    @include mobile-s {
+      margin-block: 8px;
+    }
   }
 
   &__custom-checkbox {
@@ -103,8 +120,54 @@
     border-color: var(--color-black);
   }
 
-  &__checkbox:checked ~ &__details, &__checkbox:checked ~ &__content {
+  &__checkbox:checked ~ &__details, &__checkbox:checked ~ &__content *{
     color: var(--color-gray);
     text-decoration: line-through;
   }
+
+  &--blog {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+
+    @include mobile {
+      row-gap: 16px;
+    }
+
+    &__body {
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+    }
+
+    &__title {
+      padding-top: 40px;
+
+      @include mobile {
+        padding-top: 20px;
+      }
+    }
+
+    &__description {
+      color: var(--color-gray-600);
+    }
+
+    &__cite {
+      font-style: italic;
+      font-weight: 500;
+      line-height: 1.77;
+      margin-inline: -40px;
+      padding: 48px 40px;
+      border-block:2px solid var(--color-gray-50) ;
+      background: linear-gradient(90.00deg, var(--color-gray-50),transparent);
+
+      @include mobile {
+        padding-block: 20px;
+      }
+    }
+  }
+
+
+
+
 }

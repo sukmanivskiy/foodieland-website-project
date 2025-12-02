@@ -18,6 +18,8 @@
   &__image {
     width: 100%;
     max-width: 290px;
+    aspect-ratio: 20/13;
+    object-fit: cover;
 
     border-radius: var(--card-border-radius);
 
@@ -34,6 +36,10 @@
 
   &__description {
     color: var(--color-gray-600);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
   }
 
   &__author {

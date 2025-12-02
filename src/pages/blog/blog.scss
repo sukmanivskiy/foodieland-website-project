@@ -1,0 +1,18 @@
+.blog{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 34px;
+ &__header, &__search, &__pagination, &__subscriptionCTA{
+   grid-column: 1/-1;
+ }
+
+  &__list {
+    @include laptop-s {
+      grid-column: 1/-1;
+    }
+  }
+
+  &__subscriptionCTA{
+    padding-inline: 0;
+  }
+}

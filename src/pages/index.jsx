@@ -21,7 +21,7 @@ export default () => {
       <CTA/>
       <InstagramFeed/>
       <RecipeSuggestions/>
-      <SubscriptionCTA/>
+      <SubscriptionCTA className='container'/>
     </>
   )
 }

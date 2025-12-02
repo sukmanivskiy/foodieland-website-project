@@ -1,0 +1,51 @@
+.post {
+  &__image {
+    width: 100%;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+
+    @include mobile {
+      aspect-ratio: 1.5/1;
+    }
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    column-gap: 90px;
+    max-width: 1060px;
+    margin-inline: auto;
+    padding-inline: 70px;
+    box-sizing: content-box;
+
+    @include tablet {
+      column-gap: 50px;
+    }
+
+    @include mobile {
+      padding-inline: 40px;
+      column-gap: 30px;
+    }
+
+    @include mobile-s {
+      padding-inline: 20px;
+    }
+  }
+
+  &__details {
+    padding-top: 40px;
+
+    @include tablet {
+      padding-inline: 0 !important;
+    }
+
+    @include mobile-s {
+      grid-column: 1/-1;
+    }
+  }
+
+  &__soc1als {
+    flex-direction: column !important;
+  }
+}

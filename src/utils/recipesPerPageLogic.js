@@ -1,4 +1,4 @@
-export default (data, limit = 6, keyName = "recipes") => {
+export default (data, limit = 6, keyName) => {
   const totalPages = Math.ceil(data.length / limit);
 
   return Array.from({ length: totalPages }, (_, i) => {

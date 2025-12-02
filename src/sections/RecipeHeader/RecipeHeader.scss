@@ -30,6 +30,7 @@
     @include mobile {
       grid-column: 1/2;
       flex-direction: column;
+      justify-content: center;
       row-gap: 20px;
       margin-block: auto;
     }
@@ -42,7 +43,7 @@
   &__list {
     display: flex;
     align-items: center;
-    height: 50px;
+    min-height: 50px;
 
     @include mobile {
       flex-wrap: wrap;

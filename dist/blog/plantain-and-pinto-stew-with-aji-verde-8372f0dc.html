@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendly Frontend Starter | </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <script src="/assets/main.js" type="module"></script>
+    <link rel="stylesheet" href="/assets/bundle.css">
+  </head>
+  <body>
+    <header class="header" data-js-overlay="">
+      <div class="header__inner container">
+        <a class="logo header__logo" href="/" title="Home" aria-label="Home">
+          <img class="logo__image" src="/images/logo.svg" alt="" width="200" height="68" loading="lazy">
+        </a>
+        <nav class="header__menu" data-js-overlay-menu="">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Home</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/recipes/1">Recipes</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/blog/1">Blog</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/contact">Contact</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/about-us">About Us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="soc1als header__soc1als">
+          <ul class="soc1als__list">
+            <li class="soc1als__item">
+              <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
+                  <svg fill="currentColor" stroke="none">
+                    <use href="/assets/images/icons.svg#facebook"></use>
+                  </svg>
+                </span></a>
+            </li>
+            <li class="soc1als__item">
+              <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
+                  <svg fill="currentColor" stroke="none">
+                    <use href="/assets/images/icons.svg#twitter"></use>
+                  </svg>
+                </span></a>
+            </li>
+            <li class="soc1als__item">
+              <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
+                  <svg fill="currentColor" stroke="none">
+                    <use href="/assets/images/icons.svg#instagram"></use>
+                  </svg>
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <button class="burger-button header__burger-button visible-mobile" type="button" aria-label="Open menu" title="Open menu" data-js-overlay-burger="">
+          <svg class="burger-button__svg" width="30" height="30" viewBox="0 0 100 100">
+            <path class="burger-button__line burger-button__line--1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+            <path class="burger-button__line burger-button__line--2" d="M 20,50 H 80"></path>
+            <path class="burger-button__line burger-button__line--3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="content">
+      <article class="post container">
+        <div class="post-header post__header">
+          <h1 class="post-header__title">Plantain and Pinto Stew with Aji Verde</h1>
+          <div class="author-card author-card--inline">
+            <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
+            <h3 class="author-card__name author-card--inline__name">John Smith</h3>
+            <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
+          </div>
+          <div class="post-header__body">
+            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
+          </div>
+        </div>
+        <img srcset="/assets/images/post-6-360x241.webp 360w, /assets/images/post-6-400x268.webp 400w, /assets/images/post-6-640x429.webp 640w, /assets/images/post-6-800x536.webp 800w, /assets/images/post-6-1024x686.webp 1024w, /assets/images/post-6-1280x858.webp 1280w, /assets/images/post-6-1440x965.webp 1440w, /assets/images/post-6-1920x1286.webp 1920w, /assets/images/post-6-2560x1715.webp 2560w, /assets/images/post-6-2880x1930.webp 2880w, /assets/images/post-6-3840x2573.webp 3840w" src="/assets/images/post-6-3840x2573.webp" sizes="(min-width: 4868px) 4868px, 100vw" width="800" height="600" alt decoding="async" loading="lazy" class="post__image">
+        <div class="post__body">
+          <article class="article post__details section ">
+            <section class="article--blog ">
+              <div class="article--blog__body">
+                <h2 class="article--blog__title h4">Lorem ipsum dolor sit amet</h2>
+                <p class="article--blog__description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+              </div>
+              <div class="article--blog__body">
+                <h2 class="article--blog__title h4">Lorem ipsum dolor sit amet</h2>
+                <img srcset="/assets/images/content-image-360x184.webp 360w, /assets/images/content-image-400x204.webp 400w, /assets/images/content-image-640x326.webp 640w, /assets/images/content-image-792x400.webp 792w" src="/assets/images/content-image-792x400.webp" sizes="(min-width: 792px) 792px, 100vw" width="400" height="200" alt="Lorem ipsum dolor sit amet" decoding="async" loading="lazy" class="article__image">
+                <p class="article--blog__description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+              </div>
+              <div class="article--blog__body">
+                <h2 class="article--blog__title h4">Lorem ipsum dolor sit amet</h2>
+                <p class="article--blog__description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+              </div>
+              <div class="article--blog__body">
+                <h2 class="article--blog__title h4">Lorem ipsum dolor sit amet</h2>
+                <p class="article--blog__description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+              </div>
+            </section>
+          </article>
+          <div class="soc1als soc1als--column post__soc1als section hidden-mobile-s">
+            <p class="soc1als__description">SHARE THIS ON:</p>
+            <ul class="soc1als__list soc1als__list--column">
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#facebook"></use>
+                    </svg>
+                  </span></a>
+              </li>
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#twitter"></use>
+                    </svg>
+                  </span></a>
+              </li>
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#instagram"></use>
+                    </svg>
+                  </span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <section class="subscription-cta section post__subscription-cta">
+          <div class="subscription-cta__inner">
+            <header class="subscription-cta__header">
+              <h2 class="subscription-cta__title">Deliciousness to your inbox</h2>
+              <div class="subscription-cta__description">
+                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+              </div>
+            </header>
+            <div class="subscription-cta__body">
+              <form class="subscription-cta__form">
+                <div class="subscription-cta__form-container">
+                  <label for="email" class="visually-hidden">Your email address</label>
+                  <input class="subscription-cta__input" type="email" id="email" name="email" placeholder="Your email address..." autoComplete="on" required="">
+                </div>
+                <button class="button subscription-cta__button" type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="recipe-suggestions section container post__suggestions">
+          <header class="recipe-suggestions__header">
+            <h2 class="recipe-suggestions__title recipe-suggestions__title--small">Try this delicious recipe to make your day</h2>
+          </header>
+          <div class="recipe-suggestions__body">
+            <ul class="recipe-suggestions__list recipe-suggestions__list--small">
+              <li class="recipe-suggestions__item recipe-suggestions__item--small">
+                <div class="recipe-card">
+                  <div class="recipe-card__body">
+                    <img srcset="/assets/images/recipe-image-9-290x200.webp 290w" src="/assets/images/recipe-image-9-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
+                    <a class="recipe-card__link">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                    <ul class="recipe-card__tags-list">
+                      <li class="recipe-card__tags-item">
+                        <div class="tag"><span class="icon tag__icon">
+                            <svg fill="currentColor" stroke="none">
+                              <use href="/assets/images/icons.svg#timer"></use>
+                            </svg>
+                          </span><span class="tag__label">30 minutes</span></div>
+                      </li>
+                      <li class="recipe-card__tags-item">
+                        <div class="tag"><span class="icon tag__icon">
+                            <svg fill="currentColor" stroke="none">
+                              <use href="/assets/images/icons.svg#utensils"></use>
+                            </svg>
+                          </span><span class="tag__label">Healthy</span></div>
+                      </li>
+                    </ul>
+                    <button class="button like-button" type="button"><span class="icon">
+                        <svg fill="currentColor" stroke="none">
+                          <use href="/assets/images/icons.svg#like"></use>
+                        </svg>
+                      </span></button>
+                  </div>
+                </div>
+              </li>
+              <li class="recipe-suggestions__item recipe-suggestions__item--small">
+                <div class="recipe-card">
+                  <div class="recipe-card__body">
+                    <img srcset="/assets/images/recipe-image-10-290x200.webp 290w" src="/assets/images/recipe-image-10-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
+                    <a class="recipe-card__link">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                    <ul class="recipe-card__tags-list">
+                      <li class="recipe-card__tags-item">
+                        <div class="tag"><span class="icon tag__icon">
+                            <svg fill="currentColor" stroke="none">
+                              <use href="/assets/images/icons.svg#timer"></use>
+                            </svg>
+                          </span><span class="tag__label">30 minutes</span></div>
+                      </li>
+                      <li class="recipe-card__tags-item">
+                        <div class="tag"><span class="icon tag__icon">
+                            <svg fill="currentColor" stroke="none">
+                              <use href="/assets/images/icons.svg#utensils"></use>
+                            </svg>
+                          </span><span class="tag__label">Western</span></div>
+                      </li>
+                    </ul>
+                    <button class="button like-button" type="button"><span class="icon">
+                        <svg fill="currentColor" stroke="none">
+                          <use href="/assets/images/icons.svg#like"></use>
+                        </svg>
+                      </span></button>
+                  </div>
+                </div>
+              </li>
+              <li class="recipe-suggestions__item recipe-suggestions__item--small">
+                <div class="recipe-card">
+                  <div class="recipe-card__body">
+                    <img srcset="/assets/images/recipe-image-11-290x200.webp 290w" src="/assets/images/recipe-image-11-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
+                    <a class="recipe-card__link">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                    <ul class="recipe-card__tags-list">
+                      <li class="recipe-card__tags-item">
+                        <div class="tag"><span class="icon tag__icon">
+                            <svg fill="currentColor" stroke="none">
+                              <use href="/assets/images/icons.svg#timer"></use>
+                            </svg>
+                          </span><span class="tag__label">30 minutes</span></div>
+                      </li>
+                      <li class="recipe-card__tags-item">
+                        <div class="tag"><span class="icon tag__icon">
+                            <svg fill="currentColor" stroke="none">
+                              <use href="/assets/images/icons.svg#utensils"></use>
+                            </svg>
+                          </span><span class="tag__label">Healthy</span></div>
+                      </li>
+                    </ul>
+                    <button class="button like-button" type="button"><span class="icon">
+                        <svg fill="currentColor" stroke="none">
+                          <use href="/assets/images/icons.svg#like"></use>
+                        </svg>
+                      </span></button>
+                  </div>
+                </div>
+              </li>
+              <li class="recipe-suggestions__item recipe-suggestions__item--small">
+                <div class="recipe-card">
+                  <div class="recipe-card__body">
+                    <img srcset="/assets/images/recipe-image-12-290x200.webp 290w" src="/assets/images/recipe-image-12-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
+                    <a class="recipe-card__link">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                    <ul class="recipe-card__tags-list">
+                      <li class="recipe-card__tags-item">
+                        <div class="tag"><span class="icon tag__icon">
+                            <svg fill="currentColor" stroke="none">
+                              <use href="/assets/images/icons.svg#timer"></use>
+                            </svg>
+                          </span><span class="tag__label">30 minutes</span></div>
+                      </li>
+                      <li class="recipe-card__tags-item">
+                        <div class="tag"><span class="icon tag__icon">
+                            <svg fill="currentColor" stroke="none">
+                              <use href="/assets/images/icons.svg#utensils"></use>
+                            </svg>
+                          </span><span class="tag__label">Eastern</span></div>
+                      </li>
+                    </ul>
+                    <button class="button like-button" type="button"><span class="icon">
+                        <svg fill="currentColor" stroke="none">
+                          <use href="/assets/images/icons.svg#like"></use>
+                        </svg>
+                      </span></button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footer section">
+      <div class="footer__inner container">
+        <header class="footer__header">
+          <div class="footer__logo-container"><span class="visually-hidden">Go to main page</span>
+            <a class="logo footer__logo" href="/" title="Home" aria-label="Home">
+              <img class="logo__image" src="/images/logo.svg" alt="" width="200" height="68" loading="lazy">
+            </a>
+            <div class="footer__description">
+              <p>Lorem ipsum dolor sit amet, consectetuipisicing elit </p>
+            </div>
+          </div>
+          <nav class="footer__navigation">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/recipes">Recipes</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/blog">Blog</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/contact">Contact</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/about-us">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="footer__body">
+          <footer class="footer__copyright">© 2020 Flowbase. Powered by<a href="/"> Webflow</a>
+          </footer>
+          <div class="soc1als footer__soc1als">
+            <ul class="soc1als__list">
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#facebook"></use>
+                    </svg>
+                  </span></a>
+              </li>
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#twitter"></use>
+                    </svg>
+                  </span></a>
+              </li>
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#instagram"></use>
+                    </svg>
+                  </span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

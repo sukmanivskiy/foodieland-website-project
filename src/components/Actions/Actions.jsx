@@ -5,7 +5,7 @@ import ActionButton from "@/components/ActionButton/index.js";
 export default (props) => {
   const actions = [
     {title:'PRINT',iconName:'print'},
-    {title:'SHARE',iconName:'share'}
+    {title:'SHARE',iconName:'share'},
   ]
   const {
     className,

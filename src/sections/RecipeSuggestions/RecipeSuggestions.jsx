@@ -6,7 +6,7 @@ import RecipeCard from "@/components/RecipeCard/RecipeCard.jsx";
 export default (props) => {
   const {
     className,
-    isSmall
+    isSmall,
   } = props
 
   return (

@@ -7,7 +7,7 @@ export default (props) => {
   const {
     className,
     ingredients,
-    article
+    article,
   } = props
 
   return (

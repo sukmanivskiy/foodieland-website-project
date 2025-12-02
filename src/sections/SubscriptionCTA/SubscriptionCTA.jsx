@@ -9,7 +9,7 @@ export default (props) => {
 
   return (
     <section
-      className = {clsx('subscription-cta section container', className)}
+      className = {clsx('subscription-cta section', className)}
     >
      <div className="subscription-cta__inner">
        <header className="subscription-cta__header">

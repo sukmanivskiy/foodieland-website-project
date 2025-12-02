@@ -46,7 +46,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -56,7 +56,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -124,7 +124,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -134,7 +134,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -203,7 +203,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -213,7 +213,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -281,7 +281,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -291,7 +291,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -359,7 +359,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -369,7 +369,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -437,7 +437,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -447,7 +447,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -515,7 +515,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -525,7 +525,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -593,7 +593,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -603,7 +603,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -672,7 +672,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -682,7 +682,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -751,7 +751,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -761,7 +761,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -830,7 +830,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -840,7 +840,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -909,7 +909,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -919,7 +919,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -988,7 +988,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -998,7 +998,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1067,7 +1067,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1077,7 +1077,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1146,7 +1146,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1156,7 +1156,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1225,7 +1225,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1235,7 +1235,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1304,7 +1304,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1314,7 +1314,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1383,7 +1383,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1393,7 +1393,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1462,7 +1462,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1472,7 +1472,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1541,7 +1541,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1551,7 +1551,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1620,7 +1620,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1630,7 +1630,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1701,7 +1701,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1711,7 +1711,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1780,7 +1780,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1790,7 +1790,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1859,7 +1859,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1869,7 +1869,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -1938,7 +1938,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -1948,7 +1948,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -2017,7 +2017,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -2027,7 +2027,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -2096,7 +2096,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -2106,7 +2106,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -2175,7 +2175,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -2185,7 +2185,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -2254,7 +2254,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -2264,7 +2264,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -2333,7 +2333,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -2343,7 +2343,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -2412,7 +2412,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -2422,7 +2422,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },
@@ -2491,7 +2491,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
         {
                title: 'For the sause',
@@ -2501,7 +2501,7 @@ export const recipesList = [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
-          ]
+          ],
         },
       ],
     },

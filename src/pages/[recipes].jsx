@@ -32,8 +32,10 @@ export default function RecipesPage(props) {
       <PagePagination
         className="container"
         current={currentPage}
-        total={totalPages} />
-      <SubscriptionCTA/>
+        total={totalPages}
+        path={'recipes'}
+      />
+      <SubscriptionCTA className='container'/>
     </>
   );
 }

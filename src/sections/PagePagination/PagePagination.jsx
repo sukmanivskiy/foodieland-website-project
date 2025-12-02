@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import PaginationButton from "@/components/PaginationButton/index.js";
 
 export default (props) => {
-  const { total, current, className } = props;
+  const { total, current,path, className } = props;
 
   const maxPages = 5;
   let start = current - Math.floor(maxPages / 2);
@@ -26,14 +26,14 @@ export default (props) => {
       <nav className= 'page-pagination__navigation' >
 
         {current > 1 && (
-          <PaginationButton className='page-pagination__button hidden-mobile-s' href={`/recipes/${current - 1}`} aria-label="Prev">
+          <PaginationButton className='page-pagination__button hidden-mobile-s' href={`/${path}/${current - 1}`} aria-label="Prev">
             (
           </PaginationButton>
         )}
 
         {start > 1 && (
           <>
-            <PaginationButton className='page-pagination__button' href={`/recipes/1`}>1</PaginationButton>
+            <PaginationButton className='page-pagination__button' href={`/${path}/1`}>1</PaginationButton>
             <span className= 'hidden-mobile-s'>…</span>
           </>
         )}
@@ -41,7 +41,7 @@ export default (props) => {
         {pages.map((page) => (
           <PaginationButton
             key={page}
-            href={`/recipes/${page}`}
+            href={`/${path}/${page}`}
             className={clsx(
               'pagination-button',
               current === page && 'pagination-button--active'
@@ -54,12 +54,12 @@ export default (props) => {
         {end < total && (
           <>
             <span className='hidden-mobile-s'>…</span>
-            <PaginationButton className='page-pagination__button' href={`/recipes/${total}`}>{total}</PaginationButton>
+            <PaginationButton className='page-pagination__button' href={`/${path}/${total}`}>{total}</PaginationButton>
           </>
         )}
 
         {current < total && (
-          <PaginationButton className='page-pagination__button hidden-mobile-s' href={`/recipes/${current + 1}`} aria-label="Next">
+          <PaginationButton className='page-pagination__button hidden-mobile-s' href={`/${path}/${current + 1}`} aria-label="Next">
             )
           </PaginationButton>
         )}

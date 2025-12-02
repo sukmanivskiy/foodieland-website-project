@@ -5,6 +5,7 @@ import Icon from "@/components/MyIcon/index.js";
 export default (props) => {
   const {
     className,
+    isColumn,
   } = props;
 
   const links = [
@@ -24,9 +25,12 @@ export default (props) => {
 
   return (
     <div
-      className = {clsx('soc1als', className)}
+      className = {clsx('soc1als',isColumn && 'soc1als--column', className)}
     >
-    <ul className="soc1als__list">
+      {isColumn && (
+        <p className = 'soc1als__description'>SHARE THIS ON:</p>
+        )}
+    <ul className={clsx('soc1als__list', isColumn && 'soc1als__list--column')}>
       {links.map(({label, icon }) => (
         <li className="soc1als__item">
           <a
@@ -38,7 +42,6 @@ export default (props) => {
            <Icon name={icon} hasFill/>
           </a>
         </li>
-
       ))}
     </ul>
     </div>

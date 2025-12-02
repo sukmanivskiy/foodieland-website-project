@@ -8,31 +8,31 @@ export default (props) => {
     imgSrc,
     name,
     authorDate,
-    isInline
+    isInline,
   } = props
 
   return (
     <div
       className={clsx(
         'author-card',
-        isInline && 'author-card--inline',
+        isInline && 'author-card--inline'
       )}
     >
       <Image
         src={imgSrc}
         className={clsx(
           'author-card__image',
-          isInline && 'author-card--inline__image',
+          isInline && 'author-card--inline__image'
         )}
       />
       <h3 className={clsx(
         'author-card__name',
-        isInline && 'author-card--inline__name',
+        isInline && 'author-card--inline__name'
       )}>{name}</h3>
 
       {authorDate && <time className={clsx(
         'author-card__date',
-        isInline && 'author-card--inline__date',
+        isInline && 'author-card--inline__date'
       )} dateTime={authorDate.dateTime}>
         {authorDate.label}
       </time>}

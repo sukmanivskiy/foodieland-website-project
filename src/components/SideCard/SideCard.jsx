@@ -10,7 +10,7 @@ export default (props) => {
     linkLabel,
     imgSrc,
     author,
-    href
+    href,
   } = props
 
   return (
