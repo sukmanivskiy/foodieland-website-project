@@ -1,5 +1,6 @@
 import './ContactForm.scss'
 import clsx from 'clsx'
+import Button from "@/components/Button/index.js";
 
 export default (props) => {
   const {
@@ -64,30 +65,51 @@ export default (props) => {
         >Enquiry type
         </label>
         <select
-          className = 'contact-form__select'
-          id = "enquiry"
+          id = "enquiry" data-js-select={JSON.stringify({
+          searchEnabled: false,
+          itemSelectText: "",
+          classNames: {
+            containerOuter: ['choices','contact-form__select'],
+            containerInner: ['choices__inner','contact-form__select-inner'],
+            listDropdown: ['choices__list','contact-form__select-dropdown'],
+            item: ['choices__item','contact-form__select-item'],
+            itemSelectable: ['contact-form__select-item--selectable'],
+          }
+        })}
           name = "enquiry"
           required
         >
           <option
             value = "Advertising"
             selected
-          >Select type
+          >Advertising
           </option>
-          <option value = "General">General enquiry</option>
-          <option value = "Support">Support</option>
-          <option value = "Feedback">Feedback</option>
+          <option
+            className = 'contact-form__option'
+            value = "General"
+          >General enquiry
+          </option>
+          <option
+            className = 'contact-form__option'
+            value = "Support"
+          >Support
+          </option>
+          <option
+            className = 'contact-form__option'
+            value = "Feedback"
+          >Feedback
+          </option>
         </select>
       </div>
 
-      <div className = "contact-form__group">
+      <div className = "contact-form__group--textarea">
         <label
           className = 'contact-form__label'
           htmlFor = "message"
         >Message
         </label>
         <textarea
-          className='contact-form__textarea'
+          className = 'contact-form__textarea'
           id = "message"
           name = "message"
           rows = "5"
@@ -95,7 +117,10 @@ export default (props) => {
         ></textarea>
       </div>
 
-      <button type = "submit">Send message</button>
+      <Button
+        type = 'submit'
+        className = "contact-form__button"
+      >Submit</Button>
     </form>
   )
 }

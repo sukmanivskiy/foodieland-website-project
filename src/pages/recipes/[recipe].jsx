@@ -14,6 +14,10 @@ export async function getStaticData() {
   }));
 }
 
+export const metadata = {
+  title: 'Recipe',
+}
+
 export default function (props) {
   const {
     linkLabel,

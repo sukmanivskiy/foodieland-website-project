@@ -1,3 +1,89 @@
 .contact-form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 40px;
 
+
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+
+    &--textarea {
+      grid-column: 1/-1;
+    }
+  }
+  &__input, &__select, &__textarea {
+    width: 100%;
+    background-color: transparent;
+    padding-inline: 20px;
+    color: var(--color-gray-600);
+    border-radius: var(--border-radius-s);
+    border: 2px solid var(--color-gray);
+    height: var(--button-height);
+  }
+
+  &__label {
+    color: var(--color-gray-600);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  &__select {
+   @include flex-center();
+
+    &-inner {
+      @include flex-center;
+      background-color: transparent;
+      border: none;
+      padding: 0;
+
+    }
+
+    &-dropdown {
+      margin-top: 10px!important;
+      border: 3px solid var(--color-gray) !important;
+      border-radius: var(--border-radius-s)!important;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      border-radius: var(--border-radius-s);
+      height: var(--button-height)!important;
+
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+    
+    &-item.is-highlighted {
+      background-color: var(--color-secondary);
+    }
+  }
+
+  &__option {
+    color: var(--color-gray-600);
+    background-color: var(--color-white);
+  }
+
+  &__textarea {
+    height: 200px;
+    resize: none;
+  }
+
+  &__button {
+    max-width: 180px;
+
+    @include mobile-s{
+      max-width: unset;
+    }
+  }
 }

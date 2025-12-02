@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "@a1rth/css-normalize": "1.2.1",
+    "choices.js": "^11.1.0",
     "clsx": "2.1.1",
     "hash-sum": "^2.0.0",
     "imask": "7.6.1",

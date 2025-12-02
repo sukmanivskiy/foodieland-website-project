@@ -19,6 +19,9 @@ export async function getStaticData() {
     paths: page.path,
   }));
 }
+export const metadata = {
+  title: 'Blog',
+}
 
 
 export default function RecipesPage(props) {
