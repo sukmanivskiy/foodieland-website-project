@@ -1,8 +1,8 @@
-import tags from "@/data/tags.js";
-import authors from "@/data/authors.js";
-import nameToLink from "@/utils/nameToLink.js";
+import tags from "../data/tags.js";
+import authors from "../data/authors.js";
+import nameToLink from "../utils/nameToLink.js";
 import hashSum from 'hash-sum'
-import shuffle from "@/utils/shuffle.js";
+import shuffle from "../utils/shuffle.js";
 
 export const recipesList = [
   {

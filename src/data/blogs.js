@@ -1,7 +1,7 @@
-import tags from "@/data/tags.js";
-import authors from "@/data/authors.js";
+
+import authors from "../data/authors.js";
 import hashSum from "hash-sum";
-import nameToLink from "@/utils/nameToLink.js";
+import nameToLink from "../utils/nameToLink.js";
 
 export default [
   {

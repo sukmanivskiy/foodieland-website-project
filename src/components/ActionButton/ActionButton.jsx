@@ -11,6 +11,7 @@ export default (props) => {
       type="button"
       aria-label={title}
       title={title}
+      {...{[`data-js-${iconName}`]:'true'}}
       {...extraAttrs}
     >
       <MyIcon

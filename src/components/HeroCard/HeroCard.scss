@@ -130,6 +130,13 @@
       max-width: unset;
     }
 
+    @include tablet {
+      max-width: 300px;
+    }
+    @include mobile {
+      max-width: unset;
+    }
+
 
   }
 
