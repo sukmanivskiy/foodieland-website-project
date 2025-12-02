@@ -1,5 +1,5 @@
 .section {
-  padding-block: var(--section-padding-y);
+  padding-block: 80px;
 
   @include mobile {
     padding-block: calc(var(--section-padding-y) / 2);

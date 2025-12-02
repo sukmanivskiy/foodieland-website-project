@@ -3,5 +3,4 @@ export default [
   {label: 'Recipes', href: '/recipes/1'},
   {label: 'Blog', href: '/blog/1'},
   {label: 'Contact', href: '/contact'},
-  {label: 'About Us', href: '/about-us'},
 ]

@@ -1,5 +1,6 @@
 import '@/styles'
 import { Head } from 'minista'
+import Section from "@/layouts/Section";
 import Header from '@/layouts/Header'
 import Content from '@/layouts/Content'
 import Footer from '@/layouts/Footer'
@@ -14,7 +15,7 @@ export default (props) => {
   return (
     <>
       <Head htmlAttributes={{ lang: 'en' }}>
-        <title>Friendly Frontend Starter | {title}</title>
+        <title>Foodieland | {title}</title>
         <script src="/src/main.js" type="module" />
         <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
         <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
