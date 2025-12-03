@@ -70,18 +70,18 @@
     <main class="content">
       <div class="blog container">
         <header class="section-header blog__header section ">
-          <h1 class="section-header__title">Delicious Recipes</h1>
+          <h1 class="section-header__title">Blog &amp; Article</h1>
           <div class="section-header__description">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
           </div>
         </header>
-        <section class="search-form-section blog__search ">
-          <form role="search" aria-label="search" method="" action="/" class="search-form">
+        <div class="search-form-section blog__search ">
+          <form role="search" aria-label="search" class="search-form" data-js-search-form="">
             <label for="search" class="visually-hidden">search</label>
-            <input class="search-form__input" type="search" id="search" name="q" placeholder="Search article, news or recipe...">
+            <input class="search-form__input" type="search" id="search" name="q" autoComplete="off" placeholder="Search article, news or recipe..." data-js-search-input="">
             <button class="button search-form__button" type="submit">Search</button>
           </form>
-        </section>
+        </div>
         <div class="items-list  blog__list section ">
           <ul class="items-list__list">
             <li class="items-list__item">
@@ -175,6 +175,15 @@
           <ul class="aside__list">
             <li class="aside__item">
               <div class="side-card">
+                <img srcset="/assets/images/recipe-image-10-290x200.webp 290w" src="/assets/images/recipe-image-10-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="side-card__image">
+                <div class="side-card__body">
+                  <a class="side-card__link h6">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <p class="side-card__name">By <!-- -->John Smith</p>
+                </div>
+              </div>
+            </li>
+            <li class="aside__item">
+              <div class="side-card">
                 <img srcset="/assets/images/recipe-image-9-290x200.webp 290w" src="/assets/images/recipe-image-9-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="side-card__image">
                 <div class="side-card__body">
                   <a class="side-card__link h6">The Creamiest Creamy Chicken and Bacon Pasta</a>
@@ -184,18 +193,9 @@
             </li>
             <li class="aside__item">
               <div class="side-card">
-                <img srcset="/assets/images/recipe-image-11-290x200.webp 290w" src="/assets/images/recipe-image-11-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="side-card__image">
+                <img srcset="/assets/images/recipe-image-3-360x245.webp 360w, /assets/images/recipe-image-3-368x250.webp 368w" src="/assets/images/recipe-image-3-368x250.webp" sizes="(min-width: 368px) 368px, 100vw" width="368" height="250" alt decoding="async" loading="lazy" class="side-card__image">
                 <div class="side-card__body">
-                  <a class="side-card__link h6">The Creamiest Creamy Chicken and Bacon Pasta</a>
-                  <p class="side-card__name">By <!-- -->John Smith</p>
-                </div>
-              </div>
-            </li>
-            <li class="aside__item">
-              <div class="side-card">
-                <img srcset="/assets/images/recipe-image-10-290x200.webp 290w" src="/assets/images/recipe-image-10-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="side-card__image">
-                <div class="side-card__body">
-                  <a class="side-card__link h6">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="side-card__link h6">Strawberry Oatmeal Pancake with Honey Syrup</a>
                   <p class="side-card__name">By <!-- -->John Smith</p>
                 </div>
               </div>

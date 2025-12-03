@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodieland | Recipes</title>
+    <title>Foodieland | </title>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -69,7 +69,7 @@
     </header>
     <main class="content">
       <header class="section-header section container">
-        <h1 class="section-header__title">Delicious Recipes</h1>
+        <h1 class="section-header__title">Search &amp; Enjoy</h1>
         <div class="section-header__description">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
         </div>
@@ -81,48 +81,11 @@
           <button class="button search-form__button" type="submit">Search</button>
         </form>
       </div>
-      <div class="items-list  section container">
-        <ul class="items-list__list">
-          <li class="items-list__item">
-            <div class="content-item">
-              <img srcset="/assets/images/recipe-image-14-290x200.webp 290w" src="/assets/images/recipe-image-14-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="content-item__image">
-              <div class="content-item__body">
-                <a class="content-item__link h4" href="the-creamiest-creamy-chicken-and-bacon-pasta-31198898">The Creamiest Creamy Chicken and Bacon Pasta</a>
-                <div class="content-item__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </div>
-                <div class="author-card author-card--inline">
-                  <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
-                  <h3 class="author-card__name author-card--inline__name">John Smith</h3>
-                  <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="items-list__item">
-            <div class="content-item">
-              <img srcset="/assets/images/recipe-image-15-290x200.webp 290w" src="/assets/images/recipe-image-15-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="content-item__image">
-              <div class="content-item__body">
-                <a class="content-item__link h4" href="the-creamiest-creamy-chicken-and-bacon-pasta-31198899">The Creamiest Creamy Chicken and Bacon Pasta</a>
-                <div class="content-item__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </div>
-                <div class="author-card author-card--inline">
-                  <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
-                  <h3 class="author-card__name author-card--inline__name">John Smith</h3>
-                  <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
+      <div class="items-list" data-js-results-container="">
+        <ul data-js-results="" aria-live="polite" class="items-list__list section container"></ul>
       </div>
-      <div class="page-pagination container">
-        <nav class="page-pagination__navigation">
-          <a class="pagination-button page-pagination__button hidden-mobile-s" href="/recipes/5">(</a>
-          <a class="pagination-button page-pagination__button" href="/recipes/1">1</a><span class="hidden-mobile-s">…</span>
-          <a class="pagination-button pagination-button" href="/recipes/2">2</a>
-          <a class="pagination-button pagination-button" href="/recipes/3">3</a>
-          <a class="pagination-button pagination-button" href="/recipes/4">4</a>
-          <a class="pagination-button pagination-button" href="/recipes/5">5</a>
-          <a class="pagination-button pagination-button pagination-button--active" href="/recipes/6">6</a>
-        </nav>
+      <div class="page-pagination">
+        <nav class="page-pagination__navigation" data-js-pagination="" aria-label="Pagination"></nav>
       </div>
       <section class="subscription-cta section container">
         <div class="subscription-cta__inner">
