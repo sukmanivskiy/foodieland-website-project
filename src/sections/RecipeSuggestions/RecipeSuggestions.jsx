@@ -28,9 +28,11 @@ export default (props) => {
                   tags,
                   linkLabel,
                   imgSrc,
+                  href
                 }) => (
                 <li className='recipe-suggestions__item'>
                   <RecipeCard
+                    href={href}
                     tags={tags}
                     linkLabel={linkLabel}
                     imgSrc={imgSrc}
@@ -55,9 +57,11 @@ export default (props) => {
                   tags,
                   linkLabel,
                   imgSrc,
+                  href
                 }) => (
                 <li className='recipe-suggestions__item recipe-suggestions__item--small'>
                   <RecipeCard
+                    href={href}
                     tags={tags}
                     linkLabel={linkLabel}
                     imgSrc={imgSrc}

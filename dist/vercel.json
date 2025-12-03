@@ -2,7 +2,6 @@
   "rewrites": [
     { "source": "/recipes/:id", "destination": "/recipes/:id.html" },
     { "source": "/blog/:id", "destination": "/blog/:id.html" },
-    { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/search/:slug*", "destination": "/search.html" }
+    { "source": "/contact", "destination": "/contact.html" }
   ]
 }

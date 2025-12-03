@@ -42,3 +42,11 @@
     display: none !important;
   }
 }
+
+.search-item {
+  padding: 30px !important;
+
+  @include mobile {
+    max-width: unset !important;
+  }
+}

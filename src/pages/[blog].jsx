@@ -29,7 +29,9 @@ export default function RecipesPage(props) {
 
   return (
     <div className='blog container'>
-      <SectionHeader className = 'blog__header section '/>
+      <SectionHeader
+        title='Blog & Article'
+        className = 'blog__header section '/>
       <SearchFormSection className="blog__search " />
       <ItemsList
         className=" blog__list section "

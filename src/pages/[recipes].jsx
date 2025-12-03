@@ -27,7 +27,9 @@ export default function RecipesPage(props) {
 
   return (
     <>
-      <SectionHeader className = 'section container'/>
+      <SectionHeader
+        title='Delicious Recipes'
+        className = 'section container'/>
       <SearchFormSection className="container" />
       <ItemsList
         className=" section container"

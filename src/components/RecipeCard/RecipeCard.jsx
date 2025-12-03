@@ -25,7 +25,7 @@ export default (props) => {
         />
         <a
           className={clsx('recipe-card__link', className)}
-          href= {href}
+          href= {`/recipes/${href}`}
         >
           {linkLabel}
         </a>

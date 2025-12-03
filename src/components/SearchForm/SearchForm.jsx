@@ -11,9 +11,8 @@ export default (props) => {
     <form
       role = "search"
       aria-label = "search"
-      method = ""
-      action = "/"
       className = "search-form"
+      data-js-search-form=''
     >
       <label
         htmlFor = "search"
@@ -24,6 +23,8 @@ export default (props) => {
         type = "search"
         id = "search"
         name = "q"
+        autoComplete='off'
+        data-js-search-input
         placeholder = "Search article, news or recipe..."
       />
       <Button

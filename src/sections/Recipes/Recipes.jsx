@@ -23,9 +23,11 @@ export default () => {
               tags,
               linkLabel,
               imgSrc,
+              href
             }) => (
               <li className="recipes__item">
                 <RecipeCard
+                  href={href}
                   tags={tags}
                   linkLabel={linkLabel}
                   imgSrc={imgSrc}
