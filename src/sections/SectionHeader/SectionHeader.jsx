@@ -4,7 +4,7 @@ import clsx from 'clsx'
 export default (props) => {
   const {
     className,
-    title
+    title,
   } = props
 
   return (

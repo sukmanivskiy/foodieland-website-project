@@ -212,45 +212,69 @@
       <section class="categories container section">
         <header class="categories__header">
           <h2 class="categories__title">Categories</h2>
-          <button class="button categories__button" type="button">View All Categories</button>
+          <button class="button categories__button" type="button" data-js-categories-button="">View All Categories</button>
         </header>
         <div class="categories__body">
-          <ul class="categories__list">
-            <li class="categories__list-item">
-              <button class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
+          <ul class="categories__list" data-js-categories="">
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/breakfast/1" class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
                 <img srcset="/assets/images/category-1-100x100.webp 100w" src="/assets/images/category-1-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(112, 130, 70, 0.2))">
                 <h3 class="category-button__title">Breakfast</h3>
-              </button>
+              </a>
             </li>
-            <li class="categories__list-item">
-              <button class="category-button" style="background:linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)">
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/vegan/1" class="category-button" style="background:linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)">
                 <img srcset="/assets/images/category-2-100x100.webp 100w" src="/assets/images/category-2-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(108, 198, 63, 0.2))">
                 <h3 class="category-button__title">Vegan</h3>
-              </button>
+              </a>
             </li>
-            <li class="categories__list-item">
-              <button class="category-button" style="background:linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)">
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/meat/1" class="category-button" style="background:linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)">
                 <img srcset="/assets/images/category-3-100x100.webp 100w" src="/assets/images/category-3-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(204, 38, 27, 0.2))">
                 <h3 class="category-button__title">Meat</h3>
-              </button>
+              </a>
             </li>
-            <li class="categories__list-item">
-              <button class="category-button" style="background:linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)">
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/dessert/1" class="category-button" style="background:linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)">
                 <img srcset="/assets/images/category-4-100x100.webp 100w" src="/assets/images/category-4-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(240, 158, 0, 0.2))">
                 <h3 class="category-button__title">Dessert</h3>
-              </button>
+              </a>
             </li>
-            <li class="categories__list-item">
-              <button class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/lunch/1" class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
                 <img srcset="/assets/images/category-5-100x100.webp 100w" src="/assets/images/category-5-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(240, 158, 0, 0.2))">
                 <h3 class="category-button__title">Lunch</h3>
-              </button>
+              </a>
             </li>
-            <li class="categories__list-item">
-              <button class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/chocolate/1" class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
                 <img srcset="/assets/images/category-6-100x100.webp 100w" src="/assets/images/category-6-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(204, 38, 27, 0.2))">
                 <h3 class="category-button__title">Chocolate</h3>
-              </button>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/dinner/1" class="category-button" style="background:linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)">
+                <img srcset="/assets/images/category-7-360x360.webp 360w, /assets/images/category-7-400x400.webp 400w, /assets/images/category-7-640x640.webp 640w, /assets/images/category-7-800x800.webp 800w, /assets/images/category-7-1024x1024.webp 1024w, /assets/images/category-7-1080x1080.webp 1080w" src="/assets/images/category-7-1080x1080.webp" sizes="(min-width: 1080px) 1080px, 100vw" width="1080" height="1080" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(240, 158, 0, 0.2))">
+                <h3 class="category-button__title">Dinner</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/healthy/1" class="category-button" style="background:linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)">
+                <img srcset="/assets/images/category-8-360x400.webp 360w, /assets/images/category-8-400x444.webp 400w, /assets/images/category-8-591x657.webp 591w" src="/assets/images/category-8-591x657.webp" sizes="(min-width: 591px) 591px, 100vw" width="591" height="657" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(204, 38, 27, 0.2))">
+                <h3 class="category-button__title">Healthy</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/salad/1" class="category-button" style="background:linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)">
+                <img srcset="/assets/images/category-9-360x360.webp 360w, /assets/images/category-9-400x400.webp 400w, /assets/images/category-9-640x640.webp 640w, /assets/images/category-9-753x756.webp 753w" src="/assets/images/category-9-753x756.webp" sizes="(min-width: 753px) 753px, 100vw" width="753" height="756" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(108, 198, 63, 0.2))">
+                <h3 class="category-button__title">Salad</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/seafood/1" class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
+                <img srcset="/assets/images/category-10-360x418.webp 360w, /assets/images/category-10-400x464.webp 400w, /assets/images/category-10-640x742.webp 640w, /assets/images/category-10-800x928.webp 800w, /assets/images/category-10-1024x1188.webp 1024w, /assets/images/category-10-1225x1418.webp 1225w" src="/assets/images/category-10-1225x1418.webp" sizes="(min-width: 1225px) 1225px, 100vw" width="1225" height="1418" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(204, 38, 27, 0.2))">
+                <h3 class="category-button__title">Seafood</h3>
+              </a>
             </li>
           </ul>
         </div>
@@ -566,7 +590,7 @@
               <div class="recipe-card">
                 <div class="recipe-card__body">
                   <img srcset="/assets/images/recipe-image-9-290x200.webp 290w" src="/assets/images/recipe-image-9-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
-                  <a class="recipe-card__link" href="/recipes/the-creamiest-creamy-chicken-and-bacon-pasta-2adfca9d">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="recipe-card__link" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-2b2347dd">Mixed Tropical Fruit Salad with Superfood Boosts </a>
                   <ul class="recipe-card__tags-list">
                     <li class="recipe-card__tags-item">
                       <div class="tag"><span class="icon tag__icon">
@@ -595,7 +619,7 @@
               <div class="recipe-card">
                 <div class="recipe-card__body">
                   <img srcset="/assets/images/recipe-image-10-290x200.webp 290w" src="/assets/images/recipe-image-10-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
-                  <a class="recipe-card__link" href="/recipes/the-creamiest-creamy-chicken-and-bacon-pasta-2adfca9e">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="recipe-card__link" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-2b2347de">Mixed Tropical Fruit Salad with Superfood Boosts </a>
                   <ul class="recipe-card__tags-list">
                     <li class="recipe-card__tags-item">
                       <div class="tag"><span class="icon tag__icon">
@@ -624,7 +648,7 @@
               <div class="recipe-card">
                 <div class="recipe-card__body">
                   <img srcset="/assets/images/recipe-image-11-290x200.webp 290w" src="/assets/images/recipe-image-11-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
-                  <a class="recipe-card__link" href="/recipes/the-creamiest-creamy-chicken-and-bacon-pasta-3119885a">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="recipe-card__link" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b31a">Mixed Tropical Fruit Salad with Superfood Boosts </a>
                   <ul class="recipe-card__tags-list">
                     <li class="recipe-card__tags-item">
                       <div class="tag"><span class="icon tag__icon">
@@ -653,7 +677,7 @@
               <div class="recipe-card">
                 <div class="recipe-card__body">
                   <img srcset="/assets/images/recipe-image-12-290x200.webp 290w" src="/assets/images/recipe-image-12-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
-                  <a class="recipe-card__link" href="/recipes/the-creamiest-creamy-chicken-and-bacon-pasta-3119885b">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="recipe-card__link" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b31b">Mixed Tropical Fruit Salad with Superfood Boosts </a>
                   <ul class="recipe-card__tags-list">
                     <li class="recipe-card__tags-item">
                       <div class="tag"><span class="icon tag__icon">
@@ -682,7 +706,7 @@
               <div class="recipe-card">
                 <div class="recipe-card__body">
                   <img srcset="/assets/images/recipe-image-9-290x200.webp 290w" src="/assets/images/recipe-image-9-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
-                  <a class="recipe-card__link" href="/recipes/the-creamiest-creamy-chicken-and-bacon-pasta-3119885c">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="recipe-card__link" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b31c">Mixed Tropical Fruit Salad with Superfood Boosts </a>
                   <ul class="recipe-card__tags-list">
                     <li class="recipe-card__tags-item">
                       <div class="tag"><span class="icon tag__icon">
@@ -711,7 +735,7 @@
               <div class="recipe-card">
                 <div class="recipe-card__body">
                   <img srcset="/assets/images/recipe-image-13-290x200.webp 290w" src="/assets/images/recipe-image-13-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
-                  <a class="recipe-card__link" href="/recipes/the-creamiest-creamy-chicken-and-bacon-pasta-3119885d">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="recipe-card__link" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b31d">Mixed Tropical Fruit Salad with Superfood Boosts </a>
                   <ul class="recipe-card__tags-list">
                     <li class="recipe-card__tags-item">
                       <div class="tag"><span class="icon tag__icon">
@@ -740,7 +764,7 @@
               <div class="recipe-card">
                 <div class="recipe-card__body">
                   <img srcset="/assets/images/recipe-image-14-290x200.webp 290w" src="/assets/images/recipe-image-14-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
-                  <a class="recipe-card__link" href="/recipes/the-creamiest-creamy-chicken-and-bacon-pasta-3119885e">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="recipe-card__link" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b31e">Mixed Tropical Fruit Salad with Superfood Boosts </a>
                   <ul class="recipe-card__tags-list">
                     <li class="recipe-card__tags-item">
                       <div class="tag"><span class="icon tag__icon">
@@ -769,7 +793,7 @@
               <div class="recipe-card">
                 <div class="recipe-card__body">
                   <img srcset="/assets/images/recipe-image-15-290x200.webp 290w" src="/assets/images/recipe-image-15-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="recipe-card__image">
-                  <a class="recipe-card__link" href="/recipes/the-creamiest-creamy-chicken-and-bacon-pasta-3119885f">The Creamiest Creamy Chicken and Bacon Pasta</a>
+                  <a class="recipe-card__link" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b31f">Mixed Tropical Fruit Salad with Superfood Boosts </a>
                   <ul class="recipe-card__tags-list">
                     <li class="recipe-card__tags-item">
                       <div class="tag"><span class="icon tag__icon">

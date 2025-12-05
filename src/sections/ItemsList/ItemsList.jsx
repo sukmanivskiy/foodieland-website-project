@@ -6,6 +6,7 @@ export default (props) => {
   const {
     className,
     recipes,
+    href,
   } = props
 
   return (
@@ -13,12 +14,23 @@ export default (props) => {
       className = {clsx('items-list', className)}
     >
       <ul className="items-list__list">
-        {recipes.map((item) => (
+        {!href && recipes.map((item) => (
           <li className="items-list__item">
             <ContentItem
               linkLabel = {item.linkLabel}
               imgSrc = {item.imgSrc}
               href = {item.href}
+              description = {item.description}
+              author = {item.author}
+            />
+          </li>
+        ))}
+        {href && recipes.map((item) => (
+          <li className="items-list__item">
+            <ContentItem
+              linkLabel = {item.linkLabel}
+              imgSrc = {item.imgSrc}
+              href = {`/${href}/${item.href}`}
               description = {item.description}
               author = {item.author}
             />

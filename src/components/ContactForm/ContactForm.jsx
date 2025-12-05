@@ -74,7 +74,7 @@ export default (props) => {
             listDropdown: ['choices__list','contact-form__select-dropdown'],
             item: ['choices__item','contact-form__select-item'],
             itemSelectable: ['contact-form__select-item--selectable'],
-          }
+          },
         })}
           name = "enquiry"
           required

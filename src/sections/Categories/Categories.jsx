@@ -12,19 +12,25 @@ export default () => {
     >
       <header className = "categories__header">
         <h2 className="categories__title">Categories</h2>
-        <Button className='categories__button'>
+        <Button
+          className='categories__button'
+          extraAttrs={{
+            'data-js-categories-button': '',
+          }}
+        >
           View All Categories
         </Button>
       </header>
       <div className = "categories__body">
-        <ul className="categories__list">
-          {categories.slice(0,6).map((recipe) => (
-            <li className="categories__list-item">
+        <ul className="categories__list" data-js-categories=''>
+          {categories.map((item) => (
+            <li className="categories__list-item" data-js-categories-item=''>
               <CategoryCard
-                imgSrc= {recipe.imgSrc}
-                title = {recipe.title}
-                bgColor = {recipe.bgColor}
-                shadowColor = {recipe.shadowColor}
+                category={item.category}
+                imgSrc= {item.imgSrc}
+                title = {item.title}
+                bgColor = {item.bgColor}
+                shadowColor = {item.shadowColor}
               />
             </li>
           ))}

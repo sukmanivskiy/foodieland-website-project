@@ -14,7 +14,7 @@ export default class SearchPage {
       threshold: 1,
       document: {
         id: "id",
-        index: ["linkLabel", "description"] }
+        index: ["linkLabel", "description"] },
     });
 
     document.addEventListener("DOMContentLoaded", () => this.init());
@@ -33,7 +33,6 @@ export default class SearchPage {
       this.form.addEventListener("submit", (e) => this.handleSubmit(e));
     }
 
-    // Якщо на сторінці пошуку та є query → відразу рендеримо
     const q = decodeURIComponent(window.location.hash.substring(1))?.trim();
     if (q && this.resultsList && this.paginationRoot) {
       this.input.value = q;
@@ -56,9 +55,9 @@ export default class SearchPage {
         id: item.id,
         linkLabel: item.linkLabel,
         description: item.description,
-        imgSrc: item.imgSrc,       // для рендера
-        link: item.link,         // для рендера
-        category: item.category  // за потреби
+        imgSrc: item.imgSrc,
+        link: item.link,
+        category: item.category,
       });
     });
   }
@@ -66,7 +65,7 @@ export default class SearchPage {
   handleSubmit(e) {
     e.preventDefault();
     const query = this.input.value.trim();
-    if (!query) return;
+    if (!query) {return;}
 
     if (this.resultsList && this.paginationRoot) {
       this.renderSearch(query);
@@ -77,30 +76,26 @@ export default class SearchPage {
   }
 
   search(query) {
-    const resultsUrls = this.index.search(query, { enrich: true });
+    const resultsUrls = this.index.search(query, {
+      enrich: true,
+    });
     const ids = resultsUrls.map(r => r.result).flat();
     return this.data.filter(d => ids.includes(d.id));
   }
 
   normalizeUrl(prefix,url) {
-    if (!url) return '#';
+    if (!url) {return '#';}
 
-    // Якщо це повний http/https → повертаємо як є
-    if (/^https?:\/\//.test(url)) return url;
+    if (/^https?:\/\//.test(url)) {return url;}
 
-    // Якщо url вже починається з "/" → вважаємо його коректним абсолютним шляхом
-    if (url.startsWith('/')) return url;
+    if (url.startsWith('/')) {return url;}
 
-    // Якщо url починається з "recipes/" → додаємо базовий маршрут
-    if (url.startsWith('recipes/')) return `/${url}`;
+    if (url.startsWith('recipes/')) {return `/${url}`;}
 
-    // Якщо blog/
-    if (url.startsWith('blog/')) return `/${url}`;
+    if (url.startsWith('blog/')) {return `/${url}`;}
 
-    // Якщо articles/
-    if (url.startsWith('articles/')) return `/${url}`;
+    if (url.startsWith('articles/')) {return `/${url}`;}
 
-    // Всі інші — теж трактуємо як абсолютні шляхи
     return `/${prefix}/${url}`;
   }
 
@@ -109,12 +104,12 @@ export default class SearchPage {
     const total = results.length;
     const pages = Math.ceil(total / this.itemsPerPage);
 
-    // Пагінація slice
+
     const start = (page - 1) * this.itemsPerPage;
     const end = start + this.itemsPerPage;
     const pageResults = results.slice(start, end);
 
-    // Рендер
+
     this.resultsList.innerHTML = pageResults.map(recipe=>`
       <li class="items-list__item ">
          <div
@@ -134,12 +129,12 @@ export default class SearchPage {
       </li>
     `).join("");
 
-    // Пагінація
+
     this.renderPagination(pages, page, query);
   }
 
   renderPagination(pages, current, query) {
-    if (!this.paginationRoot) return;
+    if (!this.paginationRoot) {return;}
 
     const maxButtons = 5;
     let start = Math.max(current - Math.floor(maxButtons / 2), 1);
@@ -152,37 +147,33 @@ export default class SearchPage {
 
     let html = "";
 
-    // кнопка Prev
+
     if (current > 1) {
       html += `<button class="pagination-button hidden-mobile-s" data-page="${current - 1}">(</button>`;
     }
 
-    // кнопка First (номер 1)
+
     if (start > 1) {
       html += `<button class="pagination-button" data-page="1">1</button>`;
-      if (start > 2) html += `<span class="ellipsis hidden-mobile-s">…</span>`;
+      if (start > 2) {html += `<span class="ellipsis hidden-mobile-s">…</span>`;}
     }
 
-    // кнопки сторінок навколо поточної
     for (let i = start; i <= end; i++) {
       const activeClass = i === current ? "pagination-button--active" : "";
       html += `<button class="pagination-button ${activeClass}" data-page="${i}">${i}</button>`;
     }
 
-    // кнопка Last (номер останньої)
     if (end < pages) {
-      if (end < pages - 1) html += `<span class="ellipsis hidden-mobile-s">…</span>`;
+      if (end < pages - 1) {html += `<span class="ellipsis hidden-mobile-s">…</span>`;}
       html += `<button class="pagination-button" data-page="${pages}">${pages}</button>`;
     }
 
-    // кнопка Next
     if (current < pages) {
       html += `<button class="pagination-button hidden-mobile-s" data-page="${current + 1}">)</button>`;
     }
 
     this.paginationRoot.innerHTML = html;
 
-    // слухачі подій
     this.paginationRoot.querySelectorAll("button").forEach(btn => {
       btn.addEventListener("click", () => this.renderSearch(query, Number(btn.dataset.page)));
     });

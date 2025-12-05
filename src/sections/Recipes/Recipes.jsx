@@ -23,7 +23,7 @@ export default () => {
               tags,
               linkLabel,
               imgSrc,
-              href
+              href,
             }) => (
               <li className="recipes__item">
                 <RecipeCard

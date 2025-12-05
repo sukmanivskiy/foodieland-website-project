@@ -27,6 +27,10 @@
         "label": "15 March 2022"
       }
     },
+    "categories": [
+      "meat",
+      "lunch"
+    ],
     "linkLabel": "Big and Juicy Wagyu Beef Cheeseburger",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-1.jpg",
     "nutritionList": [
@@ -132,6 +136,11 @@
         "label": "15 March 2022"
       }
     },
+    "categories": [
+      "seafood",
+      "lunch",
+      "healthy"
+    ],
     "linkLabel": "Fresh Lime Roasted Salmon with Ginger Sauce",
     "imgSrc": "src/assets/images/content-image.jpg",
     "nutritionList": [
@@ -237,6 +246,10 @@
         "label": "15 March 2022"
       }
     },
+    "categories": [
+      "vegan",
+      "dessert"
+    ],
     "linkLabel": "Strawberry Oatmeal Pancake with Honey Syrup",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-3.jpg",
     "nutritionList": [
@@ -342,6 +355,11 @@
         "label": "15 March 2022"
       }
     },
+    "categories": [
+      "vegan",
+      "breakfast",
+      "salad"
+    ],
     "linkLabel": "Fresh and Healthy Mixed Mayonnaise Salad",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-4.jpg",
     "nutritionList": [
@@ -447,6 +465,10 @@
         "label": "15 March 2022"
       }
     },
+    "categories": [
+      "meat",
+      "dinner"
+    ],
     "linkLabel": "Chicken Meatballs with Cream Cheese",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-5.jpg",
     "nutritionList": [
@@ -552,6 +574,13 @@
         "label": "15 March 2022"
       }
     },
+    "categories": [
+      "breakfast",
+      "dinner",
+      "vegan",
+      "dessert",
+      "chocolate"
+    ],
     "linkLabel": "Fruity Pancake with Orange & Blueberry",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-6.jpg",
     "nutritionList": [
@@ -657,6 +686,12 @@
         "label": "15 March 2022"
       }
     },
+    "categories": [
+      "breakfast",
+      "dinner",
+      "meat",
+      "healthy"
+    ],
     "linkLabel": "The Best Easy One Pot Chicken and Rice",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-7.jpg",
     "nutritionList": [
@@ -762,6 +797,12 @@
         "label": "15 March 2022"
       }
     },
+    "categories": [
+      "breakfast",
+      "salad",
+      "vegan",
+      "healthy"
+    ],
     "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-8.jpg",
     "nutritionList": [
@@ -868,7 +909,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-9.jpg",
     "nutritionList": [
       {
@@ -942,8 +988,8 @@
         }
       ]
     },
-    "id": "2adfca9d",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-2adfca9d"
+    "id": "2b2347dd",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-2b2347dd"
   },
   {
     "suggested": true,
@@ -974,7 +1020,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-10.jpg",
     "nutritionList": [
       {
@@ -1048,8 +1099,8 @@
         }
       ]
     },
-    "id": "2adfca9e",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-2adfca9e"
+    "id": "2b2347de",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-2b2347de"
   },
   {
     "suggested": true,
@@ -1080,7 +1131,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-11.jpg",
     "nutritionList": [
       {
@@ -1154,8 +1210,8 @@
         }
       ]
     },
-    "id": "3119885a",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119885a"
+    "id": "3945b31a",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b31a"
   },
   {
     "suggested": true,
@@ -1186,7 +1242,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-12.jpg",
     "nutritionList": [
       {
@@ -1260,8 +1321,8 @@
         }
       ]
     },
-    "id": "3119885b",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119885b"
+    "id": "3945b31b",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b31b"
   },
   {
     "suggested": true,
@@ -1292,7 +1353,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-9.jpg",
     "nutritionList": [
       {
@@ -1366,8 +1432,8 @@
         }
       ]
     },
-    "id": "3119885c",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119885c"
+    "id": "3945b31c",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b31c"
   },
   {
     "suggested": true,
@@ -1398,7 +1464,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-13.jpg",
     "nutritionList": [
       {
@@ -1472,8 +1543,8 @@
         }
       ]
     },
-    "id": "3119885d",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119885d"
+    "id": "3945b31d",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b31d"
   },
   {
     "suggested": true,
@@ -1504,7 +1575,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-14.jpg",
     "nutritionList": [
       {
@@ -1578,8 +1654,8 @@
         }
       ]
     },
-    "id": "3119885e",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119885e"
+    "id": "3945b31e",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b31e"
   },
   {
     "suggested": true,
@@ -1610,7 +1686,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-15.jpg",
     "nutritionList": [
       {
@@ -1684,8 +1765,8 @@
         }
       ]
     },
-    "id": "3119885f",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119885f"
+    "id": "3945b31f",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b31f"
   },
   {
     "suggested": true,
@@ -1716,7 +1797,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-9.jpg",
     "nutritionList": [
       {
@@ -1790,8 +1876,8 @@
         }
       ]
     },
-    "id": "31198860",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198860"
+    "id": "3945b320",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b320"
   },
   {
     "suggested": true,
@@ -1822,7 +1908,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-10.jpg",
     "nutritionList": [
       {
@@ -1896,8 +1987,8 @@
         }
       ]
     },
-    "id": "31198861",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198861"
+    "id": "3945b321",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b321"
   },
   {
     "suggested": true,
@@ -1928,7 +2019,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-11.jpg",
     "nutritionList": [
       {
@@ -2002,8 +2098,8 @@
         }
       ]
     },
-    "id": "31198862",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198862"
+    "id": "3945b322",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b322"
   },
   {
     "suggested": true,
@@ -2034,7 +2130,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-12.jpg",
     "nutritionList": [
       {
@@ -2108,8 +2209,8 @@
         }
       ]
     },
-    "id": "31198863",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198863"
+    "id": "3945b323",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b323"
   },
   {
     "suggested": true,
@@ -2140,7 +2241,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-9.jpg",
     "nutritionList": [
       {
@@ -2214,8 +2320,8 @@
         }
       ]
     },
-    "id": "31198879",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198879"
+    "id": "3945b339",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b339"
   },
   {
     "suggested": true,
@@ -2246,7 +2352,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-13.jpg",
     "nutritionList": [
       {
@@ -2320,8 +2431,8 @@
         }
       ]
     },
-    "id": "3119887a",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119887a"
+    "id": "3945b33a",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b33a"
   },
   {
     "suggested": true,
@@ -2352,7 +2463,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-14.jpg",
     "nutritionList": [
       {
@@ -2426,8 +2542,8 @@
         }
       ]
     },
-    "id": "3119887b",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119887b"
+    "id": "3945b33b",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b33b"
   },
   {
     "suggested": true,
@@ -2458,7 +2574,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-15.jpg",
     "nutritionList": [
       {
@@ -2532,8 +2653,8 @@
         }
       ]
     },
-    "id": "3119887c",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119887c"
+    "id": "3945b33c",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b33c"
   },
   {
     "suggested": true,
@@ -2564,7 +2685,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-9.jpg",
     "nutritionList": [
       {
@@ -2638,8 +2764,8 @@
         }
       ]
     },
-    "id": "3119887d",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119887d"
+    "id": "3945b33d",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b33d"
   },
   {
     "suggested": true,
@@ -2670,7 +2796,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-10.jpg",
     "nutritionList": [
       {
@@ -2744,8 +2875,8 @@
         }
       ]
     },
-    "id": "3119887e",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119887e"
+    "id": "3945b33e",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b33e"
   },
   {
     "suggested": true,
@@ -2776,7 +2907,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-11.jpg",
     "nutritionList": [
       {
@@ -2850,8 +2986,8 @@
         }
       ]
     },
-    "id": "3119887f",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-3119887f"
+    "id": "3945b33f",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b33f"
   },
   {
     "suggested": true,
@@ -2882,7 +3018,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-12.jpg",
     "nutritionList": [
       {
@@ -2956,8 +3097,8 @@
         }
       ]
     },
-    "id": "31198880",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198880"
+    "id": "3945b340",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b340"
   },
   {
     "suggested": true,
@@ -2988,7 +3129,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-9.jpg",
     "nutritionList": [
       {
@@ -3062,8 +3208,8 @@
         }
       ]
     },
-    "id": "31198881",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198881"
+    "id": "3945b341",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b341"
   },
   {
     "suggested": true,
@@ -3094,7 +3240,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-13.jpg",
     "nutritionList": [
       {
@@ -3168,8 +3319,8 @@
         }
       ]
     },
-    "id": "31198882",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198882"
+    "id": "3945b342",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b342"
   },
   {
     "suggested": true,
@@ -3200,7 +3351,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-14.jpg",
     "nutritionList": [
       {
@@ -3274,8 +3430,8 @@
         }
       ]
     },
-    "id": "31198898",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198898"
+    "id": "3945b358",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b358"
   },
   {
     "suggested": true,
@@ -3306,7 +3462,12 @@
         "label": "15 March 2022"
       }
     },
-    "linkLabel": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "categories": [
+      "meat",
+      "dinner",
+      "healthy"
+    ],
+    "linkLabel": "Mixed Tropical Fruit Salad with Superfood Boosts ",
     "imgSrc": "src/assets/images/recipes-images/recipe-image-15.jpg",
     "nutritionList": [
       {
@@ -3380,8 +3541,8 @@
         }
       ]
     },
-    "id": "31198899",
-    "href": "the-creamiest-creamy-chicken-and-bacon-pasta-31198899"
+    "id": "3945b359",
+    "href": "mixed-tropical-fruit-salad-with-superfood-boosts-3945b359"
   },
   {
     "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ",

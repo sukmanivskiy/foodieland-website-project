@@ -11,7 +11,7 @@ export default (data, limit = 6, keyName) => {
       totalPages,
       pageData: data.slice(start, end),
       path: {
-        [keyName]: `${keyName}/${currentPage}`, // генеруємо ключ як динамічний
+        [keyName]: currentPage,
       },
     };
   });

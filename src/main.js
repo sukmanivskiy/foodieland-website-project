@@ -4,6 +4,7 @@ import ResolveSvgRendering from "@/constants/ResolveSvgRendering.js";
 import SelectCollection from "@/modules/CustomSelectCollection.js";
 import {Print, Share} from "@/modules/PrintAndShareLogic.js";
 import SearchPage from "@/modules/Search.js";
+import CategoriesToggle from "@/modules/CategoriesToggle.js";
 
 new OverlayMenu();
 new SliderCollection();
@@ -11,6 +12,7 @@ new SelectCollection();
 new Print('[data-js-print]');
 new Share('[data-js-share]')
 new SearchPage({ itemsPerPage: 6 });
+new CategoriesToggle();
 
 ResolveSvgRendering();
 

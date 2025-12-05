@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodieland | Categories</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <script src="/assets/main.js" type="module"></script>
+    <link rel="stylesheet" href="/assets/bundle.css">
+  </head>
+  <body>
+    <header class="header" data-js-overlay="">
+      <div class="header__inner container">
+        <a class="logo header__logo" href="/" title="Home" aria-label="Home">
+          <img class="logo__image" src="/images/logo.svg" alt="" width="200" height="68" loading="lazy">
+        </a>
+        <nav class="header__menu" data-js-overlay-menu="">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Home</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/recipes/1">Recipes</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/blog/1">Blog</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="soc1als header__soc1als">
+          <ul class="soc1als__list">
+            <li class="soc1als__item">
+              <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
+                  <svg fill="currentColor" stroke="none">
+                    <use href="/assets/images/icons.svg#facebook"></use>
+                  </svg>
+                </span></a>
+            </li>
+            <li class="soc1als__item">
+              <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
+                  <svg fill="currentColor" stroke="none">
+                    <use href="/assets/images/icons.svg#twitter"></use>
+                  </svg>
+                </span></a>
+            </li>
+            <li class="soc1als__item">
+              <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
+                  <svg fill="currentColor" stroke="none">
+                    <use href="/assets/images/icons.svg#instagram"></use>
+                  </svg>
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <button class="burger-button header__burger-button visible-mobile" type="button" aria-label="Open menu" title="Open menu" data-js-overlay-burger="">
+          <svg class="burger-button__svg" width="30" height="30" viewBox="0 0 100 100">
+            <path class="burger-button__line burger-button__line--1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+            <path class="burger-button__line burger-button__line--2" d="M 20,50 H 80"></path>
+            <path class="burger-button__line burger-button__line--3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="content">
+      <header class="section-header section container">
+        <h1 class="section-header__title">Meat</h1>
+        <div class="section-header__description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+        </div>
+      </header>
+      <section class="search-form-section container">
+        <form role="search" aria-label="search" class="search-form" data-js-search-form="">
+          <label for="search" class="visually-hidden">search</label>
+          <input class="search-form__input" type="search" id="search" name="q" autoComplete="off" data-js-search-input="true" placeholder="Search article, news or recipe...">
+          <button class="button search-form__button" type="submit">Search</button>
+        </form>
+      </section>
+      <section class="categories container section">
+        <header class="categories__header">
+          <h2 class="categories__title">Categories</h2>
+          <button class="button categories__button" type="button" data-js-categories-button="">View All Categories</button>
+        </header>
+        <div class="categories__body">
+          <ul class="categories__list" data-js-categories="">
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/breakfast/1" class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
+                <img srcset="/assets/images/category-1-100x100.webp 100w" src="/assets/images/category-1-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(112, 130, 70, 0.2))">
+                <h3 class="category-button__title">Breakfast</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/vegan/1" class="category-button" style="background:linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)">
+                <img srcset="/assets/images/category-2-100x100.webp 100w" src="/assets/images/category-2-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(108, 198, 63, 0.2))">
+                <h3 class="category-button__title">Vegan</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/meat/1" class="category-button" style="background:linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)">
+                <img srcset="/assets/images/category-3-100x100.webp 100w" src="/assets/images/category-3-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(204, 38, 27, 0.2))">
+                <h3 class="category-button__title">Meat</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/dessert/1" class="category-button" style="background:linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)">
+                <img srcset="/assets/images/category-4-100x100.webp 100w" src="/assets/images/category-4-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(240, 158, 0, 0.2))">
+                <h3 class="category-button__title">Dessert</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/lunch/1" class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
+                <img srcset="/assets/images/category-5-100x100.webp 100w" src="/assets/images/category-5-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(240, 158, 0, 0.2))">
+                <h3 class="category-button__title">Lunch</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/chocolate/1" class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
+                <img srcset="/assets/images/category-6-100x100.webp 100w" src="/assets/images/category-6-100x100.webp" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(204, 38, 27, 0.2))">
+                <h3 class="category-button__title">Chocolate</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/dinner/1" class="category-button" style="background:linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)">
+                <img srcset="/assets/images/category-7-360x360.webp 360w, /assets/images/category-7-400x400.webp 400w, /assets/images/category-7-640x640.webp 640w, /assets/images/category-7-800x800.webp 800w, /assets/images/category-7-1024x1024.webp 1024w, /assets/images/category-7-1080x1080.webp 1080w" src="/assets/images/category-7-1080x1080.webp" sizes="(min-width: 1080px) 1080px, 100vw" width="1080" height="1080" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(240, 158, 0, 0.2))">
+                <h3 class="category-button__title">Dinner</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/healthy/1" class="category-button" style="background:linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)">
+                <img srcset="/assets/images/category-8-360x400.webp 360w, /assets/images/category-8-400x444.webp 400w, /assets/images/category-8-591x657.webp 591w" src="/assets/images/category-8-591x657.webp" sizes="(min-width: 591px) 591px, 100vw" width="591" height="657" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(204, 38, 27, 0.2))">
+                <h3 class="category-button__title">Healthy</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/salad/1" class="category-button" style="background:linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)">
+                <img srcset="/assets/images/category-9-360x360.webp 360w, /assets/images/category-9-400x400.webp 400w, /assets/images/category-9-640x640.webp 640w, /assets/images/category-9-753x756.webp 753w" src="/assets/images/category-9-753x756.webp" sizes="(min-width: 753px) 753px, 100vw" width="753" height="756" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(108, 198, 63, 0.2))">
+                <h3 class="category-button__title">Salad</h3>
+              </a>
+            </li>
+            <li class="categories__list-item" data-js-categories-item="">
+              <a href="/recipes/seafood/1" class="category-button" style="background:linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)">
+                <img srcset="/assets/images/category-10-360x418.webp 360w, /assets/images/category-10-400x464.webp 400w, /assets/images/category-10-640x742.webp 640w, /assets/images/category-10-800x928.webp 800w, /assets/images/category-10-1024x1188.webp 1024w, /assets/images/category-10-1225x1418.webp 1225w" src="/assets/images/category-10-1225x1418.webp" sizes="(min-width: 1225px) 1225px, 100vw" width="1225" height="1418" alt decoding="async" loading="lazy" class="category-button__image" style="filter:drop-shadow(20px 20px 10px rgba(204, 38, 27, 0.2))">
+                <h3 class="category-button__title">Seafood</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="items-list  section container">
+        <ul class="items-list__list">
+          <li class="items-list__item">
+            <div class="content-item">
+              <img srcset="/assets/images/recipe-image-10-290x200.webp 290w" src="/assets/images/recipe-image-10-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="content-item__image">
+              <div class="content-item__body">
+                <a class="content-item__link h4" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b321">Mixed Tropical Fruit Salad with Superfood Boosts </a>
+                <div class="content-item__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </div>
+                <div class="author-card author-card--inline">
+                  <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
+                  <h3 class="author-card__name author-card--inline__name">John Smith</h3>
+                  <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="items-list__item">
+            <div class="content-item">
+              <img srcset="/assets/images/recipe-image-11-290x200.webp 290w" src="/assets/images/recipe-image-11-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="content-item__image">
+              <div class="content-item__body">
+                <a class="content-item__link h4" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b322">Mixed Tropical Fruit Salad with Superfood Boosts </a>
+                <div class="content-item__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </div>
+                <div class="author-card author-card--inline">
+                  <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
+                  <h3 class="author-card__name author-card--inline__name">John Smith</h3>
+                  <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="items-list__item">
+            <div class="content-item">
+              <img srcset="/assets/images/recipe-image-12-290x200.webp 290w" src="/assets/images/recipe-image-12-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="content-item__image">
+              <div class="content-item__body">
+                <a class="content-item__link h4" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b323">Mixed Tropical Fruit Salad with Superfood Boosts </a>
+                <div class="content-item__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </div>
+                <div class="author-card author-card--inline">
+                  <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
+                  <h3 class="author-card__name author-card--inline__name">John Smith</h3>
+                  <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="items-list__item">
+            <div class="content-item">
+              <img srcset="/assets/images/recipe-image-9-290x200.webp 290w" src="/assets/images/recipe-image-9-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="content-item__image">
+              <div class="content-item__body">
+                <a class="content-item__link h4" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b339">Mixed Tropical Fruit Salad with Superfood Boosts </a>
+                <div class="content-item__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </div>
+                <div class="author-card author-card--inline">
+                  <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
+                  <h3 class="author-card__name author-card--inline__name">John Smith</h3>
+                  <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="items-list__item">
+            <div class="content-item">
+              <img srcset="/assets/images/recipe-image-13-290x200.webp 290w" src="/assets/images/recipe-image-13-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="content-item__image">
+              <div class="content-item__body">
+                <a class="content-item__link h4" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b33a">Mixed Tropical Fruit Salad with Superfood Boosts </a>
+                <div class="content-item__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </div>
+                <div class="author-card author-card--inline">
+                  <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
+                  <h3 class="author-card__name author-card--inline__name">John Smith</h3>
+                  <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="items-list__item">
+            <div class="content-item">
+              <img srcset="/assets/images/recipe-image-14-290x200.webp 290w" src="/assets/images/recipe-image-14-290x200.webp" sizes="(min-width: 290px) 290px, 100vw" width="290" height="200" alt decoding="async" loading="lazy" class="content-item__image">
+              <div class="content-item__body">
+                <a class="content-item__link h4" href="/recipes/mixed-tropical-fruit-salad-with-superfood-boosts-3945b33b">Mixed Tropical Fruit Salad with Superfood Boosts </a>
+                <div class="content-item__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim </div>
+                <div class="author-card author-card--inline">
+                  <img srcset="/assets/images/avatar-50x50.webp 50w" src="/assets/images/avatar-50x50.webp" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image author-card--inline__image">
+                  <h3 class="author-card__name author-card--inline__name">John Smith</h3>
+                  <time class="author-card__date author-card--inline__date" dateTime="2022-03-15">15 March 2022</time>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="page-pagination container">
+        <nav class="page-pagination__navigation">
+          <a class="pagination-button page-pagination__button hidden-mobile-s" href="/recipes/meat/2">(</a>
+          <a class="pagination-button pagination-button" href="/recipes/meat/1">1</a>
+          <a class="pagination-button pagination-button" href="/recipes/meat/2">2</a>
+          <a class="pagination-button pagination-button pagination-button--active" href="/recipes/meat/3">3</a>
+          <a class="pagination-button pagination-button" href="/recipes/meat/4">4</a>
+          <a class="pagination-button pagination-button" href="/recipes/meat/5">5</a>
+          <a class="pagination-button page-pagination__button hidden-mobile-s" href="/recipes/meat/4">)</a>
+        </nav>
+      </div>
+      <section class="subscription-cta section container">
+        <div class="subscription-cta__inner">
+          <header class="subscription-cta__header">
+            <h2 class="subscription-cta__title">Deliciousness to your inbox</h2>
+            <div class="subscription-cta__description">
+              <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+            </div>
+          </header>
+          <div class="subscription-cta__body">
+            <form class="subscription-cta__form">
+              <div class="subscription-cta__form-container">
+                <label for="email" class="visually-hidden">Your email address</label>
+                <input class="subscription-cta__input" type="email" id="email" name="email" placeholder="Your email address..." autoComplete="on" required="">
+              </div>
+              <button class="button subscription-cta__button" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="footer__inner container">
+        <header class="footer__header">
+          <div class="footer__logo-container"><span class="visually-hidden">Go to main page</span>
+            <a class="logo footer__logo" href="/" title="Home" aria-label="Home">
+              <img class="logo__image" src="/images/logo.svg" alt="" width="200" height="68" loading="lazy">
+            </a>
+            <div class="footer__description">
+              <p>Lorem ipsum dolor sit amet, consectetuipisicing elit </p>
+            </div>
+          </div>
+          <nav class="footer__navigation">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/recipes">Recipes</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/blog">Blog</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="footer__body">
+          <footer class="footer__copyright">© 2020 Flowbase. Powered by<a href="/"> Webflow</a>
+          </footer>
+          <div class="soc1als footer__soc1als">
+            <ul class="soc1als__list">
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#facebook"></use>
+                    </svg>
+                  </span></a>
+              </li>
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#twitter"></use>
+                    </svg>
+                  </span></a>
+              </li>
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#instagram"></use>
+                    </svg>
+                  </span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

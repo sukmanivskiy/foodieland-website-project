@@ -1,8 +1,24 @@
 {
   "rewrites": [
-    { "source": "/recipes/:id", "destination": "/recipes/:id.html" },
-    { "source": "/blog/:id", "destination": "/blog/:id.html" },
-    { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/search", "destination": "/search.html" }
+    {
+      "source": "/recipes/:category/:pageId",
+      "destination": "/recipes/:category/:pageId.html"
+    },
+    {
+      "source": "/recipes/:id",
+      "destination": "/recipes/:id.html"
+    },
+    {
+      "source": "/blog/:id",
+      "destination": "/blog/:id.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/search",
+      "destination": "/search.html"
+    }
   ]
 }

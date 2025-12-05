@@ -1,4 +1,5 @@
 import Button from '@/components/Button'
+import Page404 from "@/sections/Page404/index.js";
 
 export const metadata = {
   title: 'Not found',
@@ -7,8 +8,9 @@ export const metadata = {
 export default () => {
   return (
     <>
-      <h1>Page not found</h1>
-      <Button href="/">Home</Button>
+      <Page404
+      className="section container"
+      />
     </>
   )
 }

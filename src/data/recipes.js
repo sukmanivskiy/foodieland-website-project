@@ -9,6 +9,7 @@ export const recipesList = [
     tags: tags(15, 15, 'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
+    categories: ['meat', 'lunch'],
     linkLabel: 'Big and Juicy Wagyu Beef Cheeseburger',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-1.jpg',
     nutritionList: [
@@ -33,11 +34,11 @@ export const recipesList = [
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -50,7 +51,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -61,12 +62,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -82,12 +83,13 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     tags: tags(15, 15, 'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
+    categories: ['seafood', 'lunch', 'healthy'],
     linkLabel: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     imgSrc: 'src/assets/images/content-image.jpg',
     nutritionList: [
@@ -112,11 +114,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -129,7 +131,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -140,12 +142,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -161,13 +163,14 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     tags: tags(15, 15, 'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
 
+    categories: ['vegan', 'dessert'],
     linkLabel: 'Strawberry Oatmeal Pancake with Honey Syrup',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-3.jpg',
     nutritionList: [
@@ -192,11 +195,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -209,7 +212,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -220,12 +223,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -241,12 +244,13 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     tags: tags(15, 15, 'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
+    categories: ['vegan', 'breakfast', 'salad'],
     linkLabel: 'Fresh and Healthy Mixed Mayonnaise Salad',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-4.jpg',
     nutritionList: [
@@ -271,11 +275,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -288,7 +292,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -299,12 +303,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -320,12 +324,13 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     tags: tags(15, 15, 'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
+    categories: ['meat', 'dinner'],
     linkLabel: 'Chicken Meatballs with Cream Cheese',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-5.jpg',
     nutritionList: [
@@ -350,11 +355,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -367,7 +372,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -378,12 +383,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -399,12 +404,13 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     tags: tags(15, 15, 'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
+    categories: ['breakfast', 'dinner', 'vegan', 'dessert', 'chocolate'],
     linkLabel: 'Fruity Pancake with Orange & Blueberry',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-6.jpg',
     nutritionList: [
@@ -429,11 +435,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -446,7 +452,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -457,12 +463,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -478,12 +484,13 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     tags: tags(15, 15, 'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
+    categories: ['breakfast', 'dinner', 'meat', 'healthy'],
     linkLabel: 'The Best Easy One Pot Chicken and Rice',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-7.jpg',
     nutritionList: [
@@ -508,11 +515,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -525,7 +532,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -536,12 +543,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -557,12 +564,13 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     tags: tags(15, 15, 'Chicken'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
+    categories: ['breakfast', 'salad', 'vegan', 'healthy'],
     linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-8.jpg',
     nutritionList: [
@@ -587,11 +595,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -604,7 +612,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -615,12 +623,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -636,14 +644,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
     nutritionList: [
       {
@@ -667,11 +676,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -684,7 +693,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -695,12 +704,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -716,14 +725,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Western'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-10.jpg',
     nutritionList: [
       {
@@ -747,11 +757,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -764,7 +774,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -775,12 +785,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -796,14 +806,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-11.jpg',
     nutritionList: [
       {
@@ -827,11 +838,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -844,7 +855,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -855,12 +866,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -876,14 +887,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Eastern'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-12.jpg',
     nutritionList: [
       {
@@ -907,11 +919,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -924,7 +936,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -935,12 +947,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -956,14 +968,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
     nutritionList: [
       {
@@ -987,11 +1000,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1004,7 +1017,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1015,12 +1028,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1036,14 +1049,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Snack'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-13.jpg',
     nutritionList: [
       {
@@ -1067,11 +1081,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1084,7 +1098,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1095,12 +1109,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1116,14 +1130,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Seafood'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-14.jpg',
     nutritionList: [
       {
@@ -1147,11 +1162,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1164,7 +1179,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1175,12 +1190,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1196,14 +1211,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Japanese'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-15.jpg',
     nutritionList: [
       {
@@ -1227,11 +1243,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1244,7 +1260,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1255,12 +1271,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1276,14 +1292,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
     nutritionList: [
       {
@@ -1307,11 +1324,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1324,7 +1341,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1335,12 +1352,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1356,14 +1373,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Western'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-10.jpg',
     nutritionList: [
       {
@@ -1387,11 +1405,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1404,7 +1422,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1415,12 +1433,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1436,14 +1454,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-11.jpg',
     nutritionList: [
       {
@@ -1467,11 +1486,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1484,7 +1503,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1495,12 +1514,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-      paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1523,7 +1542,8 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
     tags: tags(15, 15, 'Eastern'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-12.jpg',
     nutritionList: [
       {
@@ -1547,11 +1567,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1564,7 +1584,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1575,12 +1595,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1596,14 +1616,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
     nutritionList: [
       {
@@ -1627,11 +1648,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1644,7 +1665,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1655,12 +1676,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1676,7 +1697,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
 
 
@@ -1685,7 +1706,8 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
     tags: tags(15, 15, 'Snack'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-13.jpg',
     nutritionList: [
       {
@@ -1709,11 +1731,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1726,7 +1748,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1737,12 +1759,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1758,14 +1780,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Seafood'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-14.jpg',
     nutritionList: [
       {
@@ -1789,11 +1812,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1806,7 +1829,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1817,12 +1840,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1838,14 +1861,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Japanese'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-15.jpg',
     nutritionList: [
       {
@@ -1869,11 +1893,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1886,7 +1910,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1897,12 +1921,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1918,14 +1942,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
     nutritionList: [
       {
@@ -1949,11 +1974,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -1966,7 +1991,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -1977,12 +2002,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -1998,14 +2023,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Western'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-10.jpg',
     nutritionList: [
       {
@@ -2029,11 +2055,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -2046,7 +2072,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -2057,12 +2083,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -2078,14 +2104,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-11.jpg',
     nutritionList: [
       {
@@ -2109,11 +2136,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -2126,7 +2153,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -2137,12 +2164,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -2158,14 +2185,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Eastern'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-12.jpg',
     nutritionList: [
       {
@@ -2189,11 +2217,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -2206,7 +2234,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -2217,12 +2245,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -2238,14 +2266,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Healthy'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-9.jpg',
     nutritionList: [
       {
@@ -2269,11 +2298,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -2286,7 +2315,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -2297,12 +2326,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -2318,14 +2347,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Snack'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-13.jpg',
     nutritionList: [
       {
@@ -2349,11 +2379,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -2366,7 +2396,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -2377,12 +2407,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -2398,14 +2428,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Seafood'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-14.jpg',
     nutritionList: [
       {
@@ -2429,11 +2460,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -2446,7 +2477,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -2457,12 +2488,12 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
-        title: 'Lorem ipsum dolor sit amet',
-       description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+          title: 'Lorem ipsum dolor sit amet',
+          description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
         {
           title: 'Lorem ipsum dolor sit amet',
@@ -2478,14 +2509,15 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
   {
     suggested: true,
     tags: tags(15, 15, 'Japanese'),
     description: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ',
     author: authors('John Smith'),
-    linkLabel: 'The Creamiest Creamy Chicken and Bacon Pasta',
+    categories: ['meat', 'dinner', 'healthy'],
+    linkLabel: 'Mixed Tropical Fruit Salad with Superfood Boosts ',
     imgSrc: 'src/assets/images/recipes-images/recipe-image-15.jpg',
     nutritionList: [
       {
@@ -2509,11 +2541,11 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         value: '37.4 mg',
       },
     ],
-    type:'recipes',
-fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    type: 'recipes',
+    fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     nutritionDescription: 'adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     ingredients: {
-      title:'Ingredients',
+      title: 'Ingredients',
       lists: [
         {
           title: 'For main dish',
@@ -2526,7 +2558,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           ],
         },
         {
-               title: 'For the sause',
+          title: 'For the sause',
           details: [
             'Lorem ipsum dolor sit amet',
             'Lorem ipsum dolor sit amet',
@@ -2537,9 +2569,9 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
         },
       ],
     },
-    article:{
+    article: {
       title: 'Directions',
-     paragraphs:[
+      paragraphs: [
         {
           title: 'Lorem ipsum dolor sit amet',
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
@@ -2558,7 +2590,7 @@ fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
           description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
         },
       ],
-      },
+    },
   },
 ].map((recipe, index) => {
   const id = hashSum(recipe.linkLabel + index);

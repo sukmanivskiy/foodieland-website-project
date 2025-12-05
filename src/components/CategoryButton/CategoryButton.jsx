@@ -10,10 +10,12 @@ export default (props) => {
     title,
     bgColor,
     shadowColor,
+    category,
   } = props
 
   return (
-    <button
+    <a
+      href={`/recipes/${category}/1`}
       className = {clsx('category-button', className)}
       style={{
         background: `linear-gradient(180deg, rgba(${bgColor} 0) 0%, rgba(${bgColor} 0.1) 100%)`,
@@ -31,6 +33,6 @@ export default (props) => {
       >
         {title}
       </h3>
-    </button>
+    </a>
   )
 }

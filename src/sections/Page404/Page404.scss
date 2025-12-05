@@ -1,0 +1,14 @@
+.page-404{
+  @include flex-center();
+  flex-direction: column;
+  row-gap: 80px;
+
+  &__description{
+    color: var(--color-accent);
+  }
+
+  &__link {
+    max-width: 400px;
+  }
+
+}

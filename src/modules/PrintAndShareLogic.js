@@ -38,7 +38,6 @@ export class Share {
             console.error("Error sharing:", err);
           }
         } else {
-          // fallback для браузерів без Web Share API
           prompt("Copy this link to share:", pageUrl);
         }
       });
