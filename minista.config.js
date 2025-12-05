@@ -23,17 +23,18 @@ export default defineConfig({
       optimize: {
         layout: 'constrained',
         breakpoints: [
-          360, 400, 640, 800, 1024, 1280, 1440, 1920, 2560, 2880, 3840,
+          360, 400, 640, 800, 1024, 1280, 1440, 1920,
         ],
         resolution: [1, 2],
         format: 'webp',
         formatOptions: {
           webp: {
-            quality: 80,
+            quality: 30,
             alphaQuality: 100,
             lossless: false,
           },
         },
+        fit:'cover',
         background: undefined,
       },
       include: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.webp'],
