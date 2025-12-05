@@ -4,6 +4,11 @@
 
 
   &__slider {
+    visibility: hidden;
+    &-list {
+      display: flex;
+    }
+
     &-item {
       max-width: var(--container-width);
       width: 90%;

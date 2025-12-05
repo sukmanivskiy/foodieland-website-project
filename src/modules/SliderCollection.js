@@ -20,6 +20,7 @@ class Slider {
       modules: [EffectCoverflow],
       ...this.config,
     })
+    this.rootElement.style.visibility = 'visible'
   }
 }
 

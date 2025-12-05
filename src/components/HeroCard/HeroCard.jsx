@@ -73,6 +73,7 @@ export default (props) => {
         src={imgSrc}
         width={660}
         height={640}
+        loading='eager'
       />
       <img
         className='hero-card__badge'
