@@ -30,8 +30,6 @@ export default class CategoriesToggle {
       const hidden = !this.expanded && index >= this.limit;
 
       item.classList.toggle('hidden', hidden);
-
-      item.setAttribute('aria-hidden', hidden.toString());
     });
 
     this.button.textContent = this.expanded ? 'Close' : 'All categories';

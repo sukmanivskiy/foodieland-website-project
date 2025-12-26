@@ -11,6 +11,7 @@ export default (props) => {
   return (
     <Button
       className = {clsx('like-button', className)}
+      extraAttrs={{ 'aria-label': 'Like' }}
     >
       <MyIcon name='like' hasFill/>
     </Button>

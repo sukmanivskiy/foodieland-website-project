@@ -25,10 +25,10 @@ export default (props) => {
           isInline && 'author-card--inline__image'
         )}
       />
-      <h3 className={clsx(
-        'author-card__name',
+      <p className={clsx(
+        'author-card__name h3',
         isInline && 'author-card--inline__name'
-      )}>{name}</h3>
+      )}>{name}</p>
 
       {authorDate && <time className={clsx(
         'author-card__date',
