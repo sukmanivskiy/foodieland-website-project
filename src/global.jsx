@@ -24,14 +24,14 @@ export default (props) => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content={ogImage} />
-        <meta property="og:url" content={url} />
+        <meta property="og:image" content='https://foodieland-website-project.vercel.app/assets/og-default.jpg' />
+        <meta property="og:url" content='https://foodieland-website-project.vercel.app/' />
         <meta property="og:site_name" content="Foodieland" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={ogImage} />
+        <meta name="twitter:image" content='https://foodieland-website-project.vercel.app/assets/og-default.jpg' />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
