@@ -1,27 +1,58 @@
 
-# STATIC WEBSITE PROJECT
-##### Project [Live Demonstration]()
+# STATIC WEBSITE PROJECT — FOODIELAND
+
+Static, high-performance website dedicated to food, cooking, and culinary content.
+The project includes a recipe catalog, blog articles, reusable UI components, and optimized static pages generated using Minista SSG.
+Built for reliability, fast loading, and long-term maintainability.
+
+##### Live Demo
+[Live Demonstration](https://foodieland-website-project.vercel.app/)
+
+![Project image](./public/images/readme_screenshot.jpg)
+
+## Features
+
+- Recipe Catalog:
+Structured recipe pages with ingredients, step-by-step instructions, and metadata.
+
+
+- Blog Section:
+Informational and culinary-themed articles with optimized SEO markup.
+
+
+- Modular UI Components:
+JSX-driven reusable UI elements for layout, cards, navigation, and content rendering.
+
+
+- Static Generation:
+All pages are fully pre-rendered into static HTML for top-tier performance.
+
+
+- Modern Development Stack:
+Sass, Vite, Minista, ESLint, Stylelint, and Prettier for clean and stable development.
+
+
+- Optimized Build:
+Minified assets, hashed output, and ideal structure for deployment on any static host.
+
 
 ## Requirements
 
-For development, you will need Node.js installed on your environement.
+Before starting development, ensure that your environment has Node.js (v18+ or LTS recommended) installed.
 
-### Node
+Node.js
 
-[Node](http://nodejs.org/) is really easy to install & now include [NPM](https://npmjs.org/).
-You should be able to run the following command after the installation procedure
-below.
+Installation and documentation:
+https://nodejs.org/
 
-    $ node --version
-    v0.10.24
+After installation, verify your environment:
 
-    $ npm --version
-    1.3.21
-
-#### Node installation
-To install [Node](http://nodejs.org/) visit official site http://nodejs.org/
-
-<br>
+```bash
+  node --version
+```
+```bash
+ npm --version
+```
 
 ## Install
 
@@ -29,9 +60,10 @@ To install [Node](http://nodejs.org/) visit official site http://nodejs.org/
     $ cd PROJECT
     $ npm install --force
 
-Use --force command to resolve peer dependencies conflict.This project uses explicitly defined package versions to prevent dependency conflicts and ensure consistent, repeatable builds across different environments. By locking dependencies to known-stable versions, we minimize unexpected behavior during development, testing, and deployment, leading to a more predictable and maintainable workflow.
-<br>
-<br>
+`--force` is used to bypass peer dependency conflicts.
+The project uses strict, explicitly defined dependency versions to maintain consistent builds across different environments and ensure stability during development and deployment.
+
+
 ## Start & watch
 
 ```bash
@@ -57,29 +89,51 @@ Use --force command to resolve peer dependencies conflict.This project uses expl
 
 This site is based on a template [create-friendly-frontend](https://www.npmjs.com/package/create-friendly-frontend)
 For more details about it visit https://www.npmjs.com/package/create-friendly-frontend
-<br>
-<br>
-## Languages & tools
 
-### [Minista](https://minista.qranoko.jp/) Static Site Generator
+## Project Structure
 
-Minista is a lightweight static site generator that lets you build fully static websites using JSX, Markdown, and modern JavaScript. It compiles components and content into optimized HTML, CSS, and JS, producing fast, maintainable, and deployment-ready sites.
-<br>
-### [JSX](https://react.dev/learn/writing-markup-with-jsx) Java Sript syntactic extension
+```
+/src
+  /components      # reusable JSX UI components
+  /layouts         # page templates
+  /pages           # static pages, recipe pages, blog routes
+  /styles          # Sass stylesheets
+  /assets          # images, icons, fonts
 
-JSX allows you to write HTML-like components directly in JavaScript. These components can be pre-rendered into static HTML during the build process, producing a fully static site with modular, reusable, and maintainable code.
-<br>
+/minista.config.js # Minista SSG configuration
 
-### [Sass](https://sass-lang.com/) CSS Preprocessor
+```
 
-Sass is a powerful CSS preprocessor that adds variables, nesting, mixins, and functions to standard CSS. It helps write more maintainable, reusable, and organized stylesheets, which are then compiled into standard CSS for the browser.
-### [Vite](https://vite.dev/) Build Tool
-<br>
-Vite is a fast, modern build tool and development server for JavaScript projects. It provides instant module hot-reloading during development and produces optimized, production-ready builds with minimal configuration, making development and deployment faster and more efficient.
-<br>
+## Technologies Used
+### Minista — Static Site Generator
 
-### Linters and formatters 
+_A lightweight SSG enabling JSX-driven static rendering and optimized output._
+https://minista.qranoko.jp/
 
-- [ESLint](https://eslint.org/) JavaScript code linter
-- [StyleLint](https://stylelint.io/) CSS code linter
-- [Prettier](https://prettier.io/) code formatter
+### JSX — Markup in JavaScript
+
+_Component-based UI structure, pre-rendered into static HTML._
+
+### Sass — CSS Preprocessor
+
+_Used for modular, maintainable, and scalable styling._
+
+### Vite — Modern Build Tool
+
+_Fast development server and optimized bundling for production._
+
+### Linters & Code Style
+
+* _ESLint — JavaScript linting_
+* _StyleLint — CSS linting_
+* _Prettier — code formatting_
+
+## Deployment
+
+The project outputs a fully static build (/dist) that can be deployed to any static hosting provider, including:
+
+* Netlify
+* GitHub Pages
+* Vercel (static mode)
+* Cloudflare Pages
+* Any CDN/static file server
