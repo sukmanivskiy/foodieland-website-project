@@ -53,11 +53,6 @@ export default function (props) {
         article={article}
         isCheck
       />
-      <Aside
-        className="recipe__aside hidden-tablet"
-        recipes = {randomRecipes}
-        title='Other Recipes'
-      />
       <SubscriptionCTA
       className = "recipe__subscription-cta" />
       <RecipeSuggestions
